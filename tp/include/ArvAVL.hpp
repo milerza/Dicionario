@@ -33,6 +33,10 @@ class ArvAVL{
         void removeRecursivo(node* &p, Verbete it);
         void antecessor(node* q, node* &r);
         void emOrdem(node* p);
+        int fatorBalanceamento(node *p);
+        node * rotacaoEsquerda(node *x);
+        node * rotacaoDireita(node *x);
+        int max(int v1, int v2);
 
         
 };
