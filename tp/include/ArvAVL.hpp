@@ -20,7 +20,7 @@ class ArvAVL{
         ArvAVL();
         ~ArvAVL();
 
-        int pesquisaDic(Verbete it);
+        node * pesquisaDic(Verbete it);
         int insereDic(Verbete * it);
         void imprimeDic();
         int atualizaDic(Verbete * it);

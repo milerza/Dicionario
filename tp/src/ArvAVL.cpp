@@ -1,18 +1,14 @@
 #include "ArvAVL.hpp"
 
-int ArvAVL::pesquisaDic(Verbete it){
+#include<iostream>
+
+node * ArvAVL::pesquisaDic(Verbete it){
     node * p = pesquisaRecursivo(root, it);
-    while (p->item.palavra == it.palavra)
-    {
-        p = pesquisaRecursivo(root, it);
-    }
-    
-    
-    
+   return p;
 }
 
 int ArvAVL::insereDic(Verbete * it){
-
+    insereRecursivo(this->root, *it);
 }
 
 void ArvAVL::imprimeDic(){
@@ -24,11 +20,25 @@ int ArvAVL::atualizaDic(Verbete * it){
 }
 
 int ArvAVL::removeDic(Verbete * it){
-
+    
 }
 
 void ArvAVL::insereRecursivo(node* &p, Verbete it){
-
+    if(p == nullptr){
+        p = new node();
+        p->item = it;
+        std::cout << "OK: CONTA "<< p->item.palavra << " CADASTRADA" << std::endl;
+    }
+    else{
+        if(it.palavra < p->item.palavra)
+            insereRecursivo(p->folhaEsquerda, it);
+        else if(it.palavra > p->item.palavra)
+            insereRecursivo(p->folhaDireita, it);
+        else {
+            std::string sig = it.significado->desenfileira().significado;
+            if(!sig.empty()) p->item.significado->enfilera(sig);
+        }
+    }
 }
 
 node *  ArvAVL::pesquisaRecursivo(node* &p, Verbete it){
@@ -79,8 +89,8 @@ node * ArvAVL::rotacaoEsquerda(node *x){
     t = y->folhaEsquerda; 
 
     //rotacao
-    y->folhaEsquerda = x; //a raiz x vira folha de y
-    x->folhaDireita = t; // t vira a folha direita de x
+    y->folhaEsquerda = x; //a raiz x vira folha esquerda de y
+    x->folhaDireita = t; // a folha esquerda de y vira folha direita de x
 
     //corrigindo pais
     y->pai = x->pai;

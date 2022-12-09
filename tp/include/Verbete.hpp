@@ -2,11 +2,12 @@
 #define _VERBETE_
 
 #include <string>
+#include "FilaEncadeada.hpp"
 
 class Verbete{
     public:
         std::string palavra;
-        std::string significado;
+        FilaEncadeada * significado;
         void Imprime();
 };
 
