@@ -5,11 +5,11 @@
 #include "FilaEncadeada.hpp"
 
 class Verbete{
-    public:
+    public: 
+        FilaEncadeada * significado;
         std::string palavra;
-        std::string significado;
         void imprime();
-        void inserirSignificado(std::string significado);
+        void inserirSignificado(FilaEncadeada * significado);
 };
 
 #endif

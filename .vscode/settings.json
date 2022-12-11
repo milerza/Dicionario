@@ -16,6 +16,13 @@
         "new": "cpp",
         "string": "cpp",
         "string_view": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "cwctype": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "system_error": "cpp"
     }
 }
