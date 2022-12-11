@@ -34,7 +34,6 @@ class FilaEncadeada{
         int tamanho;
 
     private:
-        TipoCelula* Posiciona(int prioridade);
         TipoCelula* frente;
         TipoCelula* tras;
 };
