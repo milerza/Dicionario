@@ -7,7 +7,8 @@ class Verbete{
     public:
         std::string palavra;
         std::string significado;
-        void Imprime();
+        void imprime();
+        void inserirSignificado(std::string significado);
 };
 
 #endif

@@ -2,7 +2,7 @@
 
 int ArvAVL::pesquisaDic(Verbete it){
     node * p = pesquisaRecursivo(root, it);
-    while (p->item.palavra == it.palavra)
+    while (p->item->palavra == it.palavra)
     {
         p = pesquisaRecursivo(root, it);
     }
@@ -19,27 +19,41 @@ void ArvAVL::imprimeDic(){
     this->emOrdem(this->root);
 }
 
-int ArvAVL::atualizaDic(Verbete * it){
+int ArvAVL::atualizaDic(Verbete* it){
 
 }
 
-int ArvAVL::removeDic(Verbete * it){
+int ArvAVL::removeDic(Verbete* it){
 
 }
 
-void ArvAVL::insereRecursivo(node* &p, Verbete it){
 
+
+void ArvAVL::insereRecursivo(node* &p, Verbete* it){
+    if(p == nullptr){
+        p = new node();
+        p->item = it;
+    }
+    else{
+        if(it->palavra < p->item->palavra)
+            insereRecursivo(p->folhaEsquerda, it);
+        else if(it->palavra > p->item->palavra){
+            insereRecursivo(p->folhaDireita, it);
+        } else{
+            //p->item->significado;
+        }
+    }
 }
 
-node *  ArvAVL::pesquisaRecursivo(node* &p, Verbete it){
+node *  ArvAVL::pesquisaRecursivo(node* &p, Verbete  it){
     if(p == nullptr){
         throw it;
     }
-    if(p->item.palavra == it.palavra){
+    if(p->item->palavra == it.palavra){
         return p;
     } 
     else{
-        if(it.palavra < p->item.palavra)
+        if(it.palavra < p->item->palavra)
            return pesquisaRecursivo(p->folhaEsquerda, it);
         else
            return pesquisaRecursivo(p->folhaDireita, it);
@@ -58,7 +72,7 @@ void ArvAVL::antecessor(node* q, node* &r){
 void ArvAVL::emOrdem(node *p){
     if(p != nullptr){
         emOrdem(p->folhaEsquerda);
-        p->item.Imprime();
+        p->item->imprime();
         emOrdem(p->folhaDireita);
     }
 }
@@ -79,8 +93,8 @@ node * ArvAVL::rotacaoEsquerda(node *x){
     t = y->folhaEsquerda; 
 
     //rotacao
-    y->folhaEsquerda = x; //a raiz x vira folha de y
-    x->folhaDireita = t; // t vira a folha direita de x
+    y->folhaEsquerda = x;
+    x->folhaDireita = t;
 
     //corrigindo pais
     y->pai = x->pai;
@@ -102,8 +116,8 @@ node * ArvAVL::rotacaoDireita(node *x){
     t = y->folhaDireita; 
 
     //rotacao 
-    y->folhaDireita = x; //a raiz x vira folha de y
-    x->folhaEsquerda = t; // t vira a folha direita de x
+    y->folhaDireita = x;
+    x->folhaEsquerda = t; 
 
     //corrigindo pais
     y->pai = x->pai;
@@ -115,6 +129,16 @@ node * ArvAVL::rotacaoDireita(node *x){
     y->altura = max(y->folhaEsquerda->altura, y->folhaDireita->altura) + 1;
 
     return y;
+}
+
+node* ArvAVL::rotacaoEsquerdaDireita(node* x){ 
+    x->folhaEsquerda = this->rotacaoEsquerda(x->folhaEsquerda);
+    return this->rotacaoDireita(x);
+}
+
+node* ArvAVL::rotacaoDireitaEsquerda(node* x){
+    x->folhaDireita = this->rotacaoDireita(x->folhaEsquerda);
+    return rotacaoEsquerda(x);
 }
 
 int ArvAVL::max(int v1, int v2) {
