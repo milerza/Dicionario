@@ -2,6 +2,7 @@
 #define _VERBETE_
 
 #include <string>
+#include "FilaEncadeada.hpp"
 
 class Verbete{
     public:

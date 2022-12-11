@@ -1,18 +1,14 @@
 #include "ArvAVL.hpp"
 
-int ArvAVL::pesquisaDic(Verbete it){
+#include<iostream>
+
+node * ArvAVL::pesquisaDic(Verbete it){
     node * p = pesquisaRecursivo(root, it);
-    while (p->item->palavra == it.palavra)
-    {
-        p = pesquisaRecursivo(root, it);
-    }
-    
-    
-    
+   return p;
 }
 
 int ArvAVL::insereDic(Verbete * it){
-
+    insereRecursivo(this->root, it);
 }
 
 void ArvAVL::imprimeDic(){
