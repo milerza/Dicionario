@@ -1,19 +1,7 @@
 #ifndef _ARV_AVL_
 #define _ARV_AVL_
 
-#include "Verbete.hpp"
-
-class node {
-    public:
-        node();
-        ~node();
-        Verbete *item;
-        int altura;
-        node *folhaEsquerda;
-        node *folhaDireita;
-        node *pai;
-};
-
+#include "Node.hpp"
 
 class ArvAVL{
     public:
@@ -23,17 +11,19 @@ class ArvAVL{
         ~ArvAVL();
 
         node * pesquisaDic(Verbete it);
-        int insereDic(Verbete * it);
+        int insereDic(Verbete it);
         void imprimeDic();
-        int atualizaDic(Verbete * it);
-        int removeDic(Verbete * it);
-        
+        int atualizaDic(Verbete it);
+        int removeDic(Verbete it);        
     
     private:
+        static const int minFB = -1,
+            maxFB = 1;
+
         void insereRecursivo(node* &p, Verbete * it);
+        node *balancearArvore(node *p);
         node * pesquisaRecursivo(node* &p, Verbete it);
-        void removeRecursivo(node* &p, Verbete it);
-        void antecessor(node* q, node* &r);
+        node * removeRecursivo(node* &p, Verbete it);
         void emOrdem(node* p);
         int fatorBalanceamento(node* p);
         node * rotacaoEsquerda(node* x);
