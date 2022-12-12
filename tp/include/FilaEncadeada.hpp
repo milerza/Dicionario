@@ -6,6 +6,7 @@
 class TipoItem{
     public:
         int ID;
+        std::string palavra;
         std::string significado;
 };
 
@@ -26,8 +27,8 @@ class FilaEncadeada{
         bool vazia() {return tamanho == 0;};
         TipoItem desenfileira();
         void limpa();
-        void enfilera(std::string it);
-        void imprimir();
+        void enfilera(std::string palavra, std::string significado);
+        void imprimir(std::string palavra);
         
     protected:
         int tamanho;

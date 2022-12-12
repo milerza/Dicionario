@@ -4,23 +4,25 @@
 HashFE::HashFE(){
     Tabela = new FilaEncadeada[M];
 }
+
 FilaEncadeada * HashFE::Pesquisa(std::string palavra){
     int pos;
     FilaEncadeada * item;
+
     pos = Hash(palavra);
     item = &Tabela[pos];
+    
     if (item == nullptr) throw "palavra inexistente!";
 
     return item;
 }
 
-void HashFE::inserir(Verbete * item){
-    TipoItem aux;
+void HashFE::inserir(Verbete item){
     int pos;
-    pos = Hash(item->palavra);
+    pos = Hash(item.palavra);
 
-    while (!item->significado->vazia()){
-        Tabela[pos].enfilera(item->significado->desenfileira().significado);
+    while (!item.significado->vazia()){
+        Tabela[pos].enfilera(item.palavra, item.significado->desenfileira().significado);
     }
 }
 
@@ -32,7 +34,20 @@ void HashFE::remover(std::string palavra){
 
 void HashFE::imprimir(std::string palavra){
     int pos = Hash(palavra);
-    Tabela[pos].imprimir();
+    Tabela[pos].imprimir(palavra);
+}
+
+int HashFE::Hash(std::string palavra){
+    int pos, tam;
+    tam = palavra.length();
+
+    // Cria posicao na tabela para a palavra 
+    // (i+1) é o peso caso tenhamos anagramas
+    for(int i = 0; i<tam; i++) 
+        pos += (i+1) * palavra[i];
+
+    // retorna um numero entre 0 e M
+    return pos % M;
 }
 
 void HashFE::removerPreenchidos(){

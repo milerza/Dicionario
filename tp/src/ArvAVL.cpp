@@ -2,24 +2,24 @@
 
 #include<iostream>
 
-node * ArvAVL::pesquisaDic(Verbete it){
+node * ArvAVL::pesquisa(Verbete it){
     node * p = pesquisaRecursivo(root, it);
    return p;
 }
 
-int ArvAVL::insereDic(Verbete it){
+int ArvAVL::insere(Verbete it){
     insereRecursivo(this->root, &it);
 }
 
-void ArvAVL::imprimeDic(){
+void ArvAVL::imprime(){
     this->emOrdem(this->root);
 }
 
-int ArvAVL::atualizaDic(Verbete it){
+int ArvAVL::atualiza(Verbete it){
     
 }
 
-int ArvAVL::removeDic(Verbete it){
+int ArvAVL::remove(Verbete it){
 
 }
 

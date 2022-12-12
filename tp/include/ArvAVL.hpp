@@ -10,11 +10,11 @@ class ArvAVL{
         ArvAVL();
         ~ArvAVL();
 
-        node * pesquisaDic(Verbete it);
-        int insereDic(Verbete it);
-        void imprimeDic();
-        int atualizaDic(Verbete it);
-        int removeDic(Verbete it);        
+        node * pesquisa(Verbete it);
+        int insere(Verbete it);
+        void imprime();
+        int atualiza(Verbete it);
+        int remove(Verbete it);        
     
     private:
         static const int minFB = -1,
