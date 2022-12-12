@@ -1,7 +1,6 @@
 #ifndef _FILA_ENCADEADA_
 #define _FILA_ENCADEADA_
 
-
 #include <string>
 
 class TipoItem{
