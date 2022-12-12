@@ -11,7 +11,7 @@ FilaEncadeada * HashFE::Pesquisa(std::string palavra){
 
     pos = Hash(palavra);
     item = &Tabela[pos];
-    
+
     if (item == nullptr) throw "palavra inexistente!";
 
     return item;
@@ -19,10 +19,13 @@ FilaEncadeada * HashFE::Pesquisa(std::string palavra){
 
 void HashFE::inserir(Verbete item){
     int pos;
+    std::string sig = item.significado->desenfileira().significado;
+    char pro = item.significado->desenfileira().tipoPalavra;
+    
     pos = Hash(item.palavra);
 
     while (!item.significado->vazia()){
-        Tabela[pos].enfilera(item.palavra, item.significado->desenfileira().significado);
+        Tabela[pos].enfilera(item.palavra,sig, pro);
     }
 }
 

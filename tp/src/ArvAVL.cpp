@@ -2,12 +2,20 @@
 
 #include<iostream>
 
+ArvAVL::ArvAVL(){
+    root = new node;
+}
+
+ArvAVL::~ArvAVL(){
+    limpa();
+}
+
 node * ArvAVL::pesquisa(Verbete it){
     node * p = pesquisaRecursivo(root, it);
    return p;
 }
 
-int ArvAVL::insere(Verbete it){
+void ArvAVL::insere(Verbete it){
     insereRecursivo(this->root, &it);
 }
 
@@ -15,14 +23,25 @@ void ArvAVL::imprime(){
     this->emOrdem(this->root);
 }
 
-int ArvAVL::atualiza(Verbete it){
+void ArvAVL::atualiza(Verbete it){
     
 }
 
-int ArvAVL::remove(Verbete it){
-
+void ArvAVL::removeNaoVazio(node * p){
+   if(p == nullptr){
+        return;
+    }
+    removeNaoVazio(p->folhaEsquerda);
+    if(!p->item->significado->vazia()){
+        removeRecursivo(p, *p->item);
+    } 
+    removeNaoVazio(p->folhaDireita);
+    
 }
 
+void ArvAVL::removeSig(){
+    removeNaoVazio(this->root);
+}
 
 void ArvAVL::insereRecursivo(node* &p, Verbete* it){
     if(p == nullptr){
@@ -84,37 +103,49 @@ node *  ArvAVL::pesquisaRecursivo(node* &p, Verbete  it){
 
 node * ArvAVL::removeRecursivo(node* &p, Verbete it){
     if(p == nullptr){
-        printf("Valor nao encontrado!\n");
+        std::cout <<"Valor nao encontrado!\n"<< it.palavra<<std::endl;
         return nullptr;
-    } else { // procura o nó a remover
+        
+    } else { 
+        // procura o nó a remover
         if(p->item->palavra == it.palavra) {
             // remove nós folhas (nós sem filhos)
             if(p->folhaEsquerda == nullptr && p->folhaDireita == nullptr) {
                 delete p;
-                printf("Elemento folha removido: %d !\n", it.palavra);
+                
+                std::cout <<"Elemento folha removido: "<< it.palavra<<std::endl;
+
                 return p;
             }
             else{
-                // remover nós que possuem 2 filhos
+                // remove nó que possue 2 filhos
                 if(p->folhaEsquerda != nullptr && p->folhaDireita != nullptr){
                     node *aux = p->folhaEsquerda;
+
                     while(aux->folhaDireita != nullptr)
                         aux = aux->folhaDireita;
+
                     p->item = aux->item;
                     aux->item = &it;
-                    printf("Elemento trocado: %d !\n", it.palavra);
+
+                    std::cout <<"Elemento trocado: "<< it.palavra<<std::endl;
+                    
                     p->folhaEsquerda = removeRecursivo(p->folhaEsquerda, it);
                     return p;
                 }
                 else{
-                    // remover nós que possuem apenas 1 filho
+                    // remove nó que possue 1 filho
                     node *aux;
+
                     if(p->folhaEsquerda != nullptr)
                         aux = p->folhaEsquerda;
                     else
                         aux = p->folhaDireita;
+
                     delete p;
-                    printf("Elemento com 1 filho removido: %d !\n", it.palavra);
+
+                    std::cout <<"Elemento com 1 filho removido: "<< it.palavra<<std::endl;
+                    
                     return aux;
                 }
             }
@@ -125,10 +156,10 @@ node * ArvAVL::removeRecursivo(node* &p, Verbete it){
                 p->folhaDireita = removeRecursivo(p->folhaDireita, it);
         }
 
-        // Recalcula a altura de todos os nós entre a raiz e o novo nó inserido
+        // recalcula a altura de todos os nós entre a raiz e o novo nó inserido
         p->altura = max(p->folhaEsquerda->alturaNo(), p->folhaDireita->alturaNo()) + 1;
 
-        // verifica a necessidade de rebalancear a árvore
+        // balancea a arvore
         p = balancearArvore(p);
 
         return p;
@@ -208,4 +239,17 @@ node* ArvAVL::rotacaoDireitaEsquerda(node* x){
 int ArvAVL::max(int v1, int v2) {
     if (v1 > v2) return v1;
     else return v2;
+}
+
+void ArvAVL::apagaRecursivo(node *p){
+    if(p!=nullptr){
+        apagaRecursivo(p->folhaEsquerda);
+        apagaRecursivo(p->folhaDireita);
+        delete p;
+    }
+}
+
+void ArvAVL::limpa(){
+    apagaRecursivo(root);
+    root = nullptr;
 }

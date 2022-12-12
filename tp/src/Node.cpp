@@ -13,6 +13,6 @@ node::~node(){
 }
 
 int node::alturaNo(){
-    if(this == NULL) return -1;
+    if(this == nullptr) return -1;
     else return this->altura;
 }

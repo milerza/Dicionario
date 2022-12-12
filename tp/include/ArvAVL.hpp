@@ -11,10 +11,10 @@ class ArvAVL{
         ~ArvAVL();
 
         node * pesquisa(Verbete it);
-        int insere(Verbete it);
+        void insere(Verbete it);
         void imprime();
-        int atualiza(Verbete it);
-        int remove(Verbete it);        
+        void removeSig();
+        void atualiza(Verbete it);          
     
     private:
         static const int minFB = -1,
@@ -24,6 +24,7 @@ class ArvAVL{
         node *balancearArvore(node *p);
         node * pesquisaRecursivo(node* &p, Verbete it);
         node * removeRecursivo(node* &p, Verbete it);
+        void removeNaoVazio(node * p);  
         void emOrdem(node* p);
         int fatorBalanceamento(node* p);
         node * rotacaoEsquerda(node* x);
@@ -31,7 +32,8 @@ class ArvAVL{
         node * rotacaoEsquerdaDireita(node* x);
         node * rotacaoDireitaEsquerda(node* x);
         int max(int v1, int v2);
-
+        void apagaRecursivo(node *p);
+        void limpa();
         
 };
 

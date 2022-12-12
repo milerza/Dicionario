@@ -1,11 +1,15 @@
 #include "Verbete.hpp"
 
 void Verbete::inserirSignificado(FilaEncadeada * p){
+    std::string pal = p->desenfileira().palavra;
+    std::string sig = p->desenfileira().significado;
+    char pro = p->desenfileira().tipoPalavra;
+
     while (!p->vazia()){
-        this->significado->enfilera(p->desenfileira().significado);
+        this->significado->enfilera(pal, sig, pro);
     }
 }
 
 void Verbete::imprime(){
-    this->significado->imprimir();
+    this->significado->imprimir(this->palavra);
 }

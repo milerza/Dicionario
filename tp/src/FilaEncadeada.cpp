@@ -46,12 +46,13 @@ void FilaEncadeada::limpa(){
     tras = frente;
 }
 
-void FilaEncadeada::enfilera(std::string palavra, std::string significado){
+void FilaEncadeada::enfilera(std::string palavra, std::string significado, char tipoPalavra){
     TipoCelula *nova;
 
     nova = new TipoCelula();
     nova->item.palavra = palavra;
     nova->item.significado = significado;
+    nova->item.tipoPalavra = tipoPalavra;
     tras->prox = nova;
     tras = nova;
     tamanho++;
@@ -61,12 +62,15 @@ void FilaEncadeada::enfilera(std::string palavra, std::string significado){
 
 void FilaEncadeada::imprimir(std::string palavra) {
     TipoCelula *p;
+    int i = 0;
     p = frente->prox;
-    
-    std::cout << palavra << "(a)" << std::endl;
 
     while (p!=nullptr && p->item.palavra == palavra) {
+        if(i == 0){
+            std::cout << palavra << "("<< p->item.tipoPalavra<<")" << std::endl;
+        }
         std::cout << p->item.ID << ". " << p->item.significado<< std::endl;
         p = p->prox;
+        i++;
     }
 }
