@@ -2,16 +2,17 @@
 #define _HASH_FE_
 
 #include "FilaEncadeada.hpp"
-#include "Verbete.hpp"
+
+#include <fstream>
 
 class HashFE{
     public:
         HashFE();
         ~HashFE();
         FilaEncadeada * Pesquisa(std::string palavra);
-        void inserir(Verbete it);
+        void inserir(TipoItem item);
         void remover();
-        void imprimir(std::string output);
+        void imprimir(std::ofstream& outFile);
         void removerPreenchidos();
     private:
         static const int M = 1000;

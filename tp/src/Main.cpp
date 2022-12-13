@@ -30,33 +30,34 @@ void executarArv(std::string input, std::string output){
         verbete.tipoPalavra = aux[0];
 
         std::getline(inFile, verbete.palavra, ']');
-        std::getline(inFile, aux);
-        
-        //enfilera o siginifiado caso exista 
-        if(aux != "")
-            verbete.significado->
-                enfilera(verbete.palavra, aux, verbete.tipoPalavra);
-
+        std::getline(inFile, verbete.significado[0]);
+         
+        //enfilera o siginifiado caso exista
         arvore->insere(verbete);
     }
 
     inFile.close();
 
     //imprimir dic 
-    //arvore->imprime(output);
+    std::ofstream outFile;
+    outFile.open(output.c_str());
+    outFile << "Palavras adicionadas" << std::endl;
+    arvore->imprime(outFile);
 
     // remover verbetes com pelo menos um significado
-   // arvore->removeSig();
+    arvore->removeSig();
 
     //imprimir dic
-    //arvore->imprime(output);
+    arvore->imprime(outFile);
 
     //chamar destrutor;
     //arvore->~ArvAVL();
+    outFile.close();
+
 }
 
 void executarHash(std::string input, std::string output){
-    Verbete verbete;
+    TipoItem verbete;
     std::string aux;
     std::ifstream inFile;
 
@@ -75,29 +76,30 @@ void executarHash(std::string input, std::string output){
         verbete.tipoPalavra = aux[0];
 
         std::getline(inFile, verbete.palavra, ']');
-        std::getline(inFile, aux);
-        
-        //enfilera o siginifiado caso exista 
-        if(aux != "")
-            verbete.significado->
-                enfilera(verbete.palavra, aux, verbete.tipoPalavra);
-        
+        std::getline(inFile, verbete.significado);
+                
         hash->inserir(verbete);
     }
 
     inFile.close();
 
+    //criando Arquivo de saída
+    std::ofstream outFile;
+    outFile.open(output.c_str());
+    
     //imprimir dic 
-    //    hash->imprimir(output);
+    //    hash->imprimir(outFile);
 
     // remover verbetes com pelo menos um significado
     //hash->removerPreenchidos();
 
     //imprimir dic
-    //hash->imprimir(output);    
+    //hash->imprimir(outFile);    
 
     //chamar destrutor;
     //hash->~HashFE();
+
+    outFile.close();
 }
 
 int main(int argc, char* argv[]) {
@@ -117,9 +119,9 @@ int main(int argc, char* argv[]) {
     }*/
 
     // ------ Cria Dicionario
-    tipoDic= "arv"; caminhoEntrada = "teste.txt"; caminhoSaida = "saida.txt";
+    tipoDic= "hash"; caminhoEntrada = "teste.txt"; caminhoSaida = "saida.txt";
     //verificando se o tipo do dicionario especificado está correto
-    avisoAssert(tipoDic == "arv" ||tipoDic == "hash" , "Tipo de dicionário inválido! Você quis dizer: `arv` ou `hash`?");
+    avisoAssert(tipoDic == "arv" ||tipoDic == "void ArvAVL::pesquisa()" , "Tipo de dicionário inválido! Você quis dizer: `arv` ou `hash`?");
 
     if(tipoDic == "arv"){
         executarArv(caminhoEntrada, caminhoSaida);

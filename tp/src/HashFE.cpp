@@ -1,8 +1,6 @@
 #include "HashFE.hpp"
-#include "Verbete.hpp"
 
 HashFE::HashFE(){
-    Tabela = new FilaEncadeada[M];
 }
 
 HashFE::~HashFE(){
@@ -21,28 +19,24 @@ FilaEncadeada * HashFE::Pesquisa(std::string palavra){
     return item;
 }
 
-void HashFE::inserir(Verbete item){
+void HashFE::inserir(TipoItem item){
     int pos;
-    std::string sig = item.significado->desenfileira().significado;
-    char pro = item.significado->desenfileira().tipoPalavra;
     
     pos = Hash(item.palavra);
 
-    while (!item.significado->vazia()){
-        Tabela[pos].enfilera(item.palavra,sig, pro);
-    }
+    Tabela[pos].enfilera(item);
 }
 
 void HashFE::remover(){
-    for(int i =0; i<M; i++){
+    for(int i = 0; i < M; i++){
         Tabela[i].limpa();
     }
 }
 
-void HashFE::imprimir(std::string output){
+void HashFE::imprimir(std::ofstream& outFile){
     for(int i = 0; i < M; i++){
         if(!Tabela[i].vazia()){
-            Tabela[i].imprimir(output);
+            Tabela[i].imprimir(outFile);
         }
     }    
 }

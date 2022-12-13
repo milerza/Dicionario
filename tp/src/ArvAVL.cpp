@@ -3,23 +3,18 @@
 #include<iostream>
 
 ArvAVL::ArvAVL(){
-    root = new node;
+    root = nullptr;
 }
 
 ArvAVL::~ArvAVL(){
     limpa();
 }
 
-node * ArvAVL::pesquisa(Verbete it){
-    node * p = pesquisaRecursivo(root, it);
-   return p;
-}
-
 void ArvAVL::insere(Verbete it){
     insereRecursivo(this->root, &it);
 }
 
-void ArvAVL::imprime(std::string output){
+void ArvAVL::imprime(std::ofstream& output){
     this->emOrdem(this->root, output);
 }
 
@@ -27,30 +22,37 @@ void ArvAVL::removeNaoVazio(node * p){
    if(p == nullptr){
         return;
     }
-    removeNaoVazio(p->folhaEsquerda);
-    if(!p->item->significado->vazia()){
-        removeRecursivo(p, *p->item);
-    } 
-    removeNaoVazio(p->folhaDireita);
     
+    removeNaoVazio(p->folhaEsquerda);
+    removeNaoVazio(p->folhaDireita);
+    if(p!= nullptr)
+    if(!p->item.vazio()){
+        removeRecursivo(p, p->item);
+    } 
 }
 
 void ArvAVL::removeSig(){
     removeNaoVazio(this->root);
+    // balancea a arvore
+     balancearArvore(this->root);
+    std::cout << root->item.palavra <<std::endl;
+    
 }
 
 void ArvAVL::insereRecursivo(node* &p, Verbete* it){
     if(p == nullptr){
         p = new node();
-        p->item = it;
+        p->item = *it;
+        if(it->significado[0] != "")
+            p->item.tam++;
     }
     else{
-        if(it->palavra < p->item->palavra)
+        if(it->palavra < p->item.palavra)
             insereRecursivo(p->folhaEsquerda, it);
-        else if(it->palavra > p->item->palavra){
+        else if(it->palavra > p->item.palavra){
             insereRecursivo(p->folhaDireita, it);
         } else{
-            p->item->inserirSignificado(it->significado);
+            p->insereVerbete(it);
         }
     }
     p->altura = this->max(p->folhaEsquerda->alturaNo(), p->folhaDireita->alturaNo()) + 1; //mexer aquiii
@@ -61,40 +63,25 @@ void ArvAVL::insereRecursivo(node* &p, Verbete* it){
 node *ArvAVL::balancearArvore(node *p){
     short fb = fatorBalanceamento(p);
 
-    // Rotação esquerda
-    if(fb < minFB && fatorBalanceamento(p->folhaDireita) <= 0)
-        p = rotacaoEsquerda(p);
-
     // Rotação direita
-    else if(fb > maxFB && fatorBalanceamento(p->folhaEsquerda) >= 0)
+    if(fb < minFB && fatorBalanceamento(p->folhaEsquerda) < 0)
         p = rotacaoDireita(p);
+
+    // Rotação esquerda
+    else if(fb > maxFB && fatorBalanceamento(p->folhaDireita) > 0)
+        p = rotacaoEsquerda(p);
 
     // Rotação dupla: corrige quebra à direta 
     // com rotação à esquerda e rotaciona pra direita
-    else if(fb > maxFB && fatorBalanceamento(p->folhaEsquerda) < 0)
+    else if(fb > maxFB && fatorBalanceamento(p->folhaDireita) < 0)
         p = rotacaoEsquerdaDireita(p);
 
     // Rotação dupla: corrige quebra à esquerda 
     // com rotação à direita e rotaciona pra esquerda
-    else if(fb < minFB && fatorBalanceamento(p->folhaDireita) > 0)
+    else if(fb < minFB && fatorBalanceamento(p->folhaEsquerda) > 0)
         p = rotacaoDireitaEsquerda(p);
 
     return p;
-}
-
-node *  ArvAVL::pesquisaRecursivo(node* &p, Verbete  it){
-    if(p == nullptr){
-        throw it;
-    }
-    if(p->item->palavra == it.palavra){
-        return p;
-    } 
-    else{
-        if(it.palavra < p->item->palavra)
-           return pesquisaRecursivo(p->folhaEsquerda, it);
-        else
-           return pesquisaRecursivo(p->folhaDireita, it);
-    }
 }
 
 node * ArvAVL::removeRecursivo(node* &p, Verbete it){
@@ -104,7 +91,7 @@ node * ArvAVL::removeRecursivo(node* &p, Verbete it){
         
     } else { 
         // procura o nó a remover
-        if(p->item->palavra == it.palavra) {
+        if(p->item.palavra == it.palavra) {
             // remove nós folhas (nós sem filhos)
             if(p->folhaEsquerda == nullptr && p->folhaDireita == nullptr) {
                 delete p;
@@ -122,7 +109,7 @@ node * ArvAVL::removeRecursivo(node* &p, Verbete it){
                         aux = aux->folhaDireita;
 
                     p->item = aux->item;
-                    aux->item = &it;
+                    aux->item = it;
 
                     std::cout <<"Elemento trocado: "<< it.palavra<<std::endl;
                     
@@ -146,7 +133,7 @@ node * ArvAVL::removeRecursivo(node* &p, Verbete it){
                 }
             }
         } else {
-            if(it.palavra < p->item->palavra)
+            if(it.palavra < p->item.palavra)
                 p->folhaEsquerda = removeRecursivo(p->folhaEsquerda, it);
             else
                 p->folhaDireita = removeRecursivo(p->folhaDireita, it);
@@ -155,18 +142,15 @@ node * ArvAVL::removeRecursivo(node* &p, Verbete it){
         // recalcula a altura de todos os nós entre a raiz e o novo nó inserido
         p->altura = max(p->folhaEsquerda->alturaNo(), p->folhaDireita->alturaNo()) + 1;
 
-        // balancea a arvore
-        p = balancearArvore(p);
-
         return p;
     }
 }
 
-void ArvAVL::emOrdem(node *p, std::string output){
+void ArvAVL::emOrdem(node *p, std::ofstream& outFile){
     if(p != nullptr){
-        emOrdem(p->folhaEsquerda, output);
-        p->item->imprime(output);
-        emOrdem(p->folhaDireita, output);
+        emOrdem(p->folhaEsquerda, outFile);
+        p->imprimirNo(outFile);
+        emOrdem(p->folhaDireita, outFile);
     }
 }
 

@@ -2,6 +2,7 @@
 #define _ARV_AVL_
 
 #include "Node.hpp"
+#include <fstream>
 
 class ArvAVL{
     public:
@@ -10,9 +11,8 @@ class ArvAVL{
         ArvAVL();
         ~ArvAVL();
 
-        node * pesquisa(Verbete it);
         void insere(Verbete it);
-        void imprime(std::string output);
+        void imprime(std::ofstream& outFile);
         void removeSig();       
     
     private:
@@ -21,10 +21,9 @@ class ArvAVL{
 
         void insereRecursivo(node* &p, Verbete * it);
         node *balancearArvore(node *p);
-        node * pesquisaRecursivo(node* &p, Verbete it);
         node * removeRecursivo(node* &p, Verbete it);
         void removeNaoVazio(node * p);  
-        void emOrdem(node* p,  std::string output);
+        void emOrdem(node* p,  std::ofstream& outFile);
         int fatorBalanceamento(node* p);
         node * rotacaoEsquerda(node* x);
         node * rotacaoDireita(node* x);
