@@ -13,8 +13,7 @@ class ArvAVL{
         node * pesquisa(Verbete it);
         void insere(Verbete it);
         void imprime(std::string output);
-        void removeSig();
-        void atualiza(Verbete it);          
+        void removeSig();       
     
     private:
         static const int minFB = -1,

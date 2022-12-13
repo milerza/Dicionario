@@ -5,7 +5,7 @@
 
 class node {
     public:
-        Verbete *item;
+        Verbete * item;
         int altura;
         node *folhaEsquerda;
         node *folhaDireita;

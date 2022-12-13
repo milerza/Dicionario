@@ -6,11 +6,10 @@
 
 class Verbete{
     public: 
-        FilaEncadeada * significado;
+        std::string significado;
         std::string palavra;
         char tipoPalavra;
         void imprime(std::string output);
-        void inserirSignificado(FilaEncadeada * significado);
 };
 
 #endif

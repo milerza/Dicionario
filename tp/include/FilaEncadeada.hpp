@@ -3,12 +3,12 @@
 
 #include <string>
 
+#include "Verbete.hpp"
+
 class TipoItem{
     public:
         int ID;
-        std::string palavra;
-        std::string significado;
-        char tipoPalavra;
+        Verbete verbete;
 };
 
 class TipoCelula{
@@ -28,7 +28,7 @@ class FilaEncadeada{
         bool vazia() {return tamanho == 0;};
         TipoItem desenfileira();
         void limpa();
-        void enfilera(std::string palavra, std::string significado, char tipoPalavra);
+        void enfilera(TipoItem item);
         void imprimir(std::string output);
         
     protected:

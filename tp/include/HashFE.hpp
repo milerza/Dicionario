@@ -16,7 +16,7 @@ class HashFE{
     private:
         static const int M = 1000;
         int Hash(std::string palavra);
-        FilaEncadeada * Tabela;
+        FilaEncadeada Tabela[M];
 };
 
 #endif
