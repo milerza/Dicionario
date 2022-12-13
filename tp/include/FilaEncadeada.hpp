@@ -29,7 +29,7 @@ class FilaEncadeada{
         TipoItem desenfileira();
         void limpa();
         void enfilera(std::string palavra, std::string significado, char tipoPalavra);
-        void imprimir(std::string palavra);
+        void imprimir(std::string output);
         
     protected:
         int tamanho;

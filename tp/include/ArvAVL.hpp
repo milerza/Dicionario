@@ -12,7 +12,7 @@ class ArvAVL{
 
         node * pesquisa(Verbete it);
         void insere(Verbete it);
-        void imprime();
+        void imprime(std::string output);
         void removeSig();
         void atualiza(Verbete it);          
     
@@ -25,7 +25,7 @@ class ArvAVL{
         node * pesquisaRecursivo(node* &p, Verbete it);
         node * removeRecursivo(node* &p, Verbete it);
         void removeNaoVazio(node * p);  
-        void emOrdem(node* p);
+        void emOrdem(node* p,  std::string output);
         int fatorBalanceamento(node* p);
         node * rotacaoEsquerda(node* x);
         node * rotacaoDireita(node* x);

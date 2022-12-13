@@ -9,7 +9,7 @@ class Verbete{
         FilaEncadeada * significado;
         std::string palavra;
         char tipoPalavra;
-        void imprime();
+        void imprime(std::string output);
         void inserirSignificado(FilaEncadeada * significado);
 };
 

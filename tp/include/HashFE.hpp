@@ -7,10 +7,11 @@
 class HashFE{
     public:
         HashFE();
+        ~HashFE();
         FilaEncadeada * Pesquisa(std::string palavra);
         void inserir(Verbete it);
-        void remover(std::string palavra);
-        void imprimir(std::string palavra);
+        void remover();
+        void imprimir(std::string output);
         void removerPreenchidos();
     private:
         static const int M = 1000;

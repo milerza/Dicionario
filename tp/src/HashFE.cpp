@@ -5,6 +5,10 @@ HashFE::HashFE(){
     Tabela = new FilaEncadeada[M];
 }
 
+HashFE::~HashFE(){
+    remover();
+}
+
 FilaEncadeada * HashFE::Pesquisa(std::string palavra){
     int pos;
     FilaEncadeada * item;
@@ -29,15 +33,18 @@ void HashFE::inserir(Verbete item){
     }
 }
 
-void HashFE::remover(std::string palavra){
-    int pos = Hash(palavra);
-    //limpa todos os significados  da palavra
-    Tabela[pos].limpa();
+void HashFE::remover(){
+    for(int i =0; i<M; i++){
+        Tabela[i].limpa();
+    }
 }
 
-void HashFE::imprimir(std::string palavra){
-    int pos = Hash(palavra);
-    Tabela[pos].imprimir(palavra);
+void HashFE::imprimir(std::string output){
+    for(int i = 0; i < M; i++){
+        if(!Tabela[i].vazia()){
+            Tabela[i].imprimir(output);
+        }
+    }    
 }
 
 int HashFE::Hash(std::string palavra){

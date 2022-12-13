@@ -19,12 +19,8 @@ void ArvAVL::insere(Verbete it){
     insereRecursivo(this->root, &it);
 }
 
-void ArvAVL::imprime(){
-    this->emOrdem(this->root);
-}
-
-void ArvAVL::atualiza(Verbete it){
-    
+void ArvAVL::imprime(std::string output){
+    this->emOrdem(this->root, output);
 }
 
 void ArvAVL::removeNaoVazio(node * p){
@@ -166,11 +162,11 @@ node * ArvAVL::removeRecursivo(node* &p, Verbete it){
     }
 }
 
-void ArvAVL::emOrdem(node *p){
+void ArvAVL::emOrdem(node *p, std::string output){
     if(p != nullptr){
-        emOrdem(p->folhaEsquerda);
-        p->item->imprime();
-        emOrdem(p->folhaDireita);
+        emOrdem(p->folhaEsquerda, output);
+        p->item->imprime(output);
+        emOrdem(p->folhaDireita, output);
     }
 }
 
@@ -191,11 +187,6 @@ node * ArvAVL::rotacaoEsquerda(node *x){
     y->folhaEsquerda = x;
     x->folhaDireita = t;
 
-    //corrigindo pais
-    y->pai = x->pai;
-    x->pai = y;
-    t->pai = x;
-
     // recalcula a altura dos nós que foram movimentados
     x->altura = max(x->folhaEsquerda->alturaNo(), x->folhaDireita->alturaNo()) + 1;
     y->altura = max(y->folhaEsquerda->alturaNo(), y->folhaDireita->alturaNo()) + 1;
@@ -213,11 +204,6 @@ node * ArvAVL::rotacaoDireita(node *x){
     //rotacao 
     y->folhaDireita = x;
     x->folhaEsquerda = t; 
-
-    //corrigindo pais
-    y->pai = x->pai;
-    x->pai = y;
-    t->pai = x;
 
     // recalcula a altura dos nós que foram movimentados
     x->altura = max(x->folhaEsquerda->alturaNo(), x->folhaDireita->alturaNo()) + 1;

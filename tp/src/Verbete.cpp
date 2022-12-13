@@ -10,6 +10,6 @@ void Verbete::inserirSignificado(FilaEncadeada * p){
     }
 }
 
-void Verbete::imprime(){
-    this->significado->imprimir(this->palavra);
+void Verbete::imprime(std::string output){
+    this->significado->imprimir(output);
 }

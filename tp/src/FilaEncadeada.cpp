@@ -1,6 +1,7 @@
 #include "FilaEncadeada.hpp"
 
 #include <iostream>
+#include <fstream>
 
 TipoCelula::TipoCelula(){
     prox = nullptr;
@@ -60,17 +61,24 @@ void FilaEncadeada::enfilera(std::string palavra, std::string significado, char 
     nova->item.ID = tamanho;
 }
 
-void FilaEncadeada::imprimir(std::string palavra) {
+void FilaEncadeada::imprimir(std::string output) {
+    std::ofstream outFile;
     TipoCelula *p;
+
+    outFile.open(output.c_str());
+    
     int i = 0;
     p = frente->prox;
 
-    while (p!=nullptr && p->item.palavra == palavra) {
-        if(i == 0){
-            std::cout << palavra << "("<< p->item.tipoPalavra<<")" << std::endl;
+    while (p!=nullptr) {
+        if(p->item.ID == 1){
+            outFile <<  p->item.palavra << "("<< p->item.tipoPalavra<<")" << std::endl;
         }
-        std::cout << p->item.ID << ". " << p->item.significado<< std::endl;
+        outFile<< p->item.ID << ". " << p->item.significado<< std::endl;
         p = p->prox;
         i++;
     }
+
+    outFile.close();
 }
+

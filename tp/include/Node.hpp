@@ -9,7 +9,6 @@ class node {
         int altura;
         node *folhaEsquerda;
         node *folhaDireita;
-        node *pai;
 
         node();
         ~node();
