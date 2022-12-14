@@ -76,7 +76,7 @@ void executarHash(std::string input, std::string output){
         verbete.tipoPalavra = aux[0];
 
         std::getline(inFile, verbete.palavra, ']');
-        std::getline(inFile, verbete.significado);
+        std::getline(inFile, verbete.significado[0]);
                 
         hash->inserir(verbete);
     }
@@ -88,13 +88,13 @@ void executarHash(std::string input, std::string output){
     outFile.open(output.c_str());
     
     //imprimir dic 
-    //    hash->imprimir(outFile);
-
+    hash->imprimir(outFile);
+    outFile << "-------------------------------" <<std::endl;
     // remover verbetes com pelo menos um significado
-    //hash->removerPreenchidos();
+    hash->removerPreenchidos();
 
     //imprimir dic
-    //hash->imprimir(outFile);    
+    hash->imprimir(outFile);    
 
     //chamar destrutor;
     //hash->~HashFE();
@@ -121,7 +121,7 @@ int main(int argc, char* argv[]) {
     // ------ Cria Dicionario
     tipoDic= "hash"; caminhoEntrada = "teste.txt"; caminhoSaida = "saida.txt";
     //verificando se o tipo do dicionario especificado está correto
-    avisoAssert(tipoDic == "arv" ||tipoDic == "void ArvAVL::pesquisa()" , "Tipo de dicionário inválido! Você quis dizer: `arv` ou `hash`?");
+    avisoAssert(tipoDic == "arv" ||tipoDic == "hash" , "Tipo de dicionário inválido! Você quis dizer: `arv` ou `hash`?");
 
     if(tipoDic == "arv"){
         executarArv(caminhoEntrada, caminhoSaida);

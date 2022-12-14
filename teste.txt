@@ -15,7 +15,3 @@ a [adequate]
 a [aesthetic]
 a [afraid]
 a [aggressive]
-a [agile] nimble, spry, quick
-a [agricultural]
-a [alert]
-a [alive] live

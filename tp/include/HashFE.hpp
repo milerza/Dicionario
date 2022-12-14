@@ -15,7 +15,7 @@ class HashFE{
         void imprimir(std::ofstream& outFile);
         void removerPreenchidos();
     private:
-        static const int M = 1000;
+        static const int M = 10;
         int Hash(std::string palavra);
         FilaEncadeada Tabela[M];
 };

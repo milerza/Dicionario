@@ -20,11 +20,15 @@ FilaEncadeada * HashFE::Pesquisa(std::string palavra){
 }
 
 void HashFE::inserir(TipoItem item){
-    int pos;
+    int pos, x;
     
     pos = Hash(item.palavra);
+    x = Tabela[pos].PesquisaPosicao(item.palavra);
 
-    Tabela[pos].enfilera(item);
+    if(x == -1)
+        Tabela[pos].enfilera(item);
+
+    else Tabela[pos].AtualizaPosicao(item, x);
 }
 
 void HashFE::remover(){
@@ -57,7 +61,7 @@ int HashFE::Hash(std::string palavra){
 void HashFE::removerPreenchidos(){
     for(int i =0; i<M; i++){
         if(!Tabela[i].vazia()){
-            Tabela[i].limpa();
+            Tabela[i].pecorreERemove();
         }
     }
 }
