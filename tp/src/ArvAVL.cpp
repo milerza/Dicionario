@@ -34,7 +34,7 @@ void ArvAVL::removeNaoVazio(node * p){
 void ArvAVL::removeSig(){
     removeNaoVazio(this->root);
     // balancea a arvore
-     balancearArvore(this->root);
+    balancearArvore(this->root);
     std::cout << root->item.palavra <<std::endl;
     
 }

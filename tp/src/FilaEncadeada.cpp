@@ -4,7 +4,7 @@
 
 void TipoItem::imprimir(std::ofstream& outFile){
 
-    outFile << this->palavra << "("<< this->tipoPalavra<<")" << std::endl;
+    outFile << this->palavra << " ("<< this->tipoPalavra<<")" << std::endl;
             
     for(int i = 0; i< this->tam; i++ ) {
         outFile<< i+1 << ". " << this->significado[0]<< std::endl;
@@ -26,20 +26,16 @@ FilaEncadeada::~FilaEncadeada(){
     delete frente;
 }
 
-TipoItem FilaEncadeada::desenfileira(){
+void FilaEncadeada::preencheLista(TipoItem *listaItens, int * l){
     TipoCelula *p;
-    TipoItem aux;
-    if (tamanho == 0)
-        throw "Fila vazia";
-
-    aux = frente->prox->item;    
-    p = frente;
-    frente = frente->prox;
-
-    delete p;
-    tamanho--;
-
-    return aux;
+    
+    p = frente->prox;
+        
+    while (p!=nullptr) {
+        listaItens[*l] = p->item;
+        (*l)++;
+        p = p->prox;
+    }
 }
 
 void FilaEncadeada::limpa(){

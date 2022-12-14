@@ -32,7 +32,7 @@ class FilaEncadeada{
         ~FilaEncadeada();
         int getTamanho() {return tamanho;};
         bool vazia() {return tamanho == 0;};
-        TipoItem desenfileira();
+        void preencheLista(TipoItem *listaItens, int * l);
         void limpa();
         void enfilera(TipoItem item);
         void imprimir(std::ofstream& outFile);

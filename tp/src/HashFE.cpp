@@ -1,4 +1,5 @@
 #include "HashFE.hpp"
+#include "QuickSort.hpp"
 
 HashFE::HashFE(){
 }
@@ -38,11 +39,26 @@ void HashFE::remover(){
 }
 
 void HashFE::imprimir(std::ofstream& outFile){
+    TipoItem *listaItens;
+    int t = 0;
+    int l = 0;
+    for(int i = 0; i < M; i++){
+        t += Tabela[i].getTamanho();
+    }   
+    listaItens = new TipoItem[t]; 
+
     for(int i = 0; i < M; i++){
         if(!Tabela[i].vazia()){
-            Tabela[i].imprimir(outFile);
+            Tabela[i].preencheLista(listaItens, &l);
         }
-    }    
+    }
+
+    quickSortRecursivo(listaItens, 0, t - 1);
+
+    for(int i = 0; i < t; i++){
+        listaItens[i].imprimir(outFile);
+    }
+
 }
 
 int HashFE::Hash(std::string palavra){
