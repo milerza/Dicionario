@@ -18,24 +18,47 @@ void ArvAVL::imprime(std::ofstream& output){
     this->emOrdem(this->root, output);
 }
 
-void ArvAVL::removeNaoVazio(node * p){
-   if(p == nullptr){
-        return;
-    }
-    
-    removeNaoVazio(p->folhaEsquerda);
-    removeNaoVazio(p->folhaDireita);
-    if(p!= nullptr)
+void ArvAVL::procuraNaoVazio(node * p, Verbete * a, int * i){
+    if(p==nullptr) return;
+
+    procuraNaoVazio(p->folhaEsquerda, a, i);
+
     if(!p->item.vazio()){
-        removeRecursivo(p, p->item);
-    } 
+        a[*i] = p->item;
+        (*i)++;
+    }
+
+    procuraNaoVazio(p->folhaDireita, a, i);
 }
 
 void ArvAVL::removeSig(){
-    removeNaoVazio(this->root);
-    // balancea a arvore
-    balancearArvore(this->root);
-    std::cout << root->item.palavra <<std::endl;
+    RemoveVetor(root);
+}
+
+void ArvAVL::pesquisa(node * p, int * i){
+    if(p!= nullptr){
+        if(!p->item.vazio()) (*i)++;
+        pesquisa(p->folhaEsquerda, i);
+        pesquisa(p->folhaDireita, i);
+    } 
+}
+
+void ArvAVL::RemoveVetor(node * p){
+   
+    Verbete * aSeremExcluidos;
+    int i = 0; int t =0;
+
+    pesquisa(p, &i);
+
+    aSeremExcluidos = new Verbete[i];
+    
+    procuraNaoVazio(p, aSeremExcluidos, &t);   
+
+    for(int j = 0; j < i; j++){
+        removeRecursivo(root, aSeremExcluidos[j]);
+    }
+
+    p = this->balancearArvore(p);
     
 }
 
@@ -68,7 +91,7 @@ node *ArvAVL::balancearArvore(node *p){
         p = rotacaoDireita(p);
 
     // Rotação esquerda
-    else if(fb > maxFB && fatorBalanceamento(p->folhaDireita) > 0)
+      else if(fb > maxFB && fatorBalanceamento(p->folhaDireita) > 0)
         p = rotacaoEsquerda(p);
 
     // Rotação dupla: corrige quebra à direta 
@@ -87,63 +110,67 @@ node *ArvAVL::balancearArvore(node *p){
 node * ArvAVL::removeRecursivo(node* &p, Verbete it){
     if(p == nullptr){
         std::cout <<"Valor nao encontrado!\n"<< it.palavra<<std::endl;
-        return nullptr;
-        
-    } else { 
-        // procura o nó a remover
-        if(p->item.palavra == it.palavra) {
-            // remove nós folhas (nós sem filhos)
-            if(p->folhaEsquerda == nullptr && p->folhaDireita == nullptr) {
-                delete p;
-                
-                std::cout <<"Elemento folha removido: "<< it.palavra<<std::endl;
-
-                return p;
-            }
-            else{
-                // remove nó que possue 2 filhos
-                if(p->folhaEsquerda != nullptr && p->folhaDireita != nullptr){
-                    node *aux = p->folhaEsquerda;
-
-                    while(aux->folhaDireita != nullptr)
-                        aux = aux->folhaDireita;
-
-                    p->item = aux->item;
-                    aux->item = it;
-
-                    std::cout <<"Elemento trocado: "<< it.palavra<<std::endl;
-                    
-                    p->folhaEsquerda = removeRecursivo(p->folhaEsquerda, it);
-                    return p;
-                }
-                else{
-                    // remove nó que possue 1 filho
-                    node *aux;
-
-                    if(p->folhaEsquerda != nullptr)
-                        aux = p->folhaEsquerda;
-                    else
-                        aux = p->folhaDireita;
-
-                    delete p;
-
-                    std::cout <<"Elemento com 1 filho removido: "<< it.palavra<<std::endl;
-                    
-                    return aux;
-                }
-            }
-        } else {
-            if(it.palavra < p->item.palavra)
-                p->folhaEsquerda = removeRecursivo(p->folhaEsquerda, it);
-            else
-                p->folhaDireita = removeRecursivo(p->folhaDireita, it);
-        }
-
-        // recalcula a altura de todos os nós entre a raiz e o novo nó inserido
-        p->altura = max(p->folhaEsquerda->alturaNo(), p->folhaDireita->alturaNo()) + 1;
-
         return p;
+    
+    } 
+    if(it.palavra < p->item.palavra)
+            p->folhaEsquerda = removeRecursivo(p->folhaEsquerda, it);
+            
+    else if(it.palavra > p->item.palavra)
+        p->folhaDireita = removeRecursivo(p->folhaDireita, it);
+    // procura o nó a remover
+    
+    else{
+        if( (p->folhaDireita == nullptr) || (p->folhaEsquerda == nullptr) ) { 
+            node *temp;
+
+            if(p->folhaEsquerda != nullptr) temp = p->folhaEsquerda;
+            else temp = p->folhaDireita;
+  
+            // No folha
+            if (temp == nullptr) { 
+                std::cout <<"Removido no folha: \n"<< it.palavra <<std::endl;
+
+                temp = p; 
+                p = nullptr; 
+            } 
+            else{ //No com um filho 
+                *p = *temp;
+                std::cout <<"Removido no com um filho: \n"<< it.palavra <<std::endl;
+
+            }
+            
+                         
+            delete temp; 
+        } 
+        else{
+            // no com dois filhos
+            // sucesspr menor da subarvore da direita
+
+            node *temp = p->folhaDireita;
+
+            while(temp->folhaEsquerda != nullptr)
+                temp = temp->folhaEsquerda;
+  
+            // copia o conteudo do menor 
+            p->item = temp->item; 
+            std::cout <<"Troca no com um filho: \n"<< it.palavra <<std::endl;
+
+  
+            // Deleta o menor na posicao folha
+            p->folhaDireita = removeRecursivo(p->folhaDireita, temp->item);
+        }
     }
+
+    if (p == nullptr) 
+        return p; 
+        
+
+    // recalcula a altura de todos os nós entre a raiz e o novo nó inserido
+    p->altura = max(p->folhaEsquerda->alturaNo(), p->folhaDireita->alturaNo()) + 1;
+
+    return p;
+    
 }
 
 void ArvAVL::emOrdem(node *p, std::ofstream& outFile){

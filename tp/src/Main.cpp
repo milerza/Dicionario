@@ -41,13 +41,14 @@ void executarArv(std::string input, std::string output){
     //imprimir dic 
     std::ofstream outFile;
     outFile.open(output.c_str());
-    outFile << "Palavras adicionadas" << std::endl;
+    
     arvore->imprime(outFile);
 
     // remover verbetes com pelo menos um significado
     arvore->removeSig();
 
     //imprimir dic
+    outFile << "--------------------" << std::endl;
     arvore->imprime(outFile);
 
     //chamar destrutor;
@@ -119,9 +120,10 @@ int main(int argc, char* argv[]) {
     }*/
 
     // ------ Cria Dicionario
-    tipoDic= "hash"; caminhoEntrada = "teste.txt"; caminhoSaida = "saida.txt";
+    tipoDic= "arv"; caminhoEntrada = "teste.txt"; caminhoSaida = "saida.txt";
     //verificando se o tipo do dicionario especificado está correto
     avisoAssert(tipoDic == "arv" ||tipoDic == "hash" , "Tipo de dicionário inválido! Você quis dizer: `arv` ou `hash`?");
+    
 
     if(tipoDic == "arv"){
         executarArv(caminhoEntrada, caminhoSaida);

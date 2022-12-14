@@ -22,7 +22,9 @@ class ArvAVL{
         void insereRecursivo(node* &p, Verbete * it);
         node *balancearArvore(node *p);
         node * removeRecursivo(node* &p, Verbete it);
-        void removeNaoVazio(node * p);  
+        void pesquisa(node * p, int * i);
+        void RemoveVetor(node * p);
+        void procuraNaoVazio(node * p, Verbete* a, int * i);  
         void emOrdem(node* p,  std::ofstream& outFile);
         int fatorBalanceamento(node* p);
         node * rotacaoEsquerda(node* x);
@@ -32,6 +34,7 @@ class ArvAVL{
         int max(int v1, int v2);
         void apagaRecursivo(node *p);
         void limpa();
+        //void apagaRec(node *p);
         
 };
 
