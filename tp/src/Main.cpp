@@ -48,11 +48,11 @@ void executarArv(std::string input, std::string output){
     arvore->removeSig();
 
     //imprimir dic
-    outFile << "--------------------" << std::endl;
+    
     arvore->imprime(outFile);
 
     //chamar destrutor;
-    //arvore->~ArvAVL();
+    arvore->~ArvAVL();
     outFile.close();
 
 }
@@ -90,7 +90,6 @@ void executarHash(std::string input, std::string output){
     
     //imprimir dic 
     hash->imprimir(outFile);
-    outFile << "-------------------------------" <<std::endl;
     // remover verbetes com pelo menos um significado
     hash->removerPreenchidos();
 
@@ -98,16 +97,17 @@ void executarHash(std::string input, std::string output){
     hash->imprimir(outFile);    
 
     //chamar destrutor;
-    //hash->~HashFE();
+    hash->~HashFE();
 
     outFile.close();
 }
 
 int main(int argc, char* argv[]) {
-    std::string caminhoEntrada, caminhoSaida, tipoDic;
+    std::string caminhoEntrada, tipoDic;
+    std::string  caminhoSaida = "out.txt";
     //------ Ler valores passados 
 
-    /*for (int i = 0; i < argc; i++){
+    for (int i = 0; i < argc; i++){
         if (std::string(argv[i]) == "-i"){ //arquivo de input
             caminhoEntrada = std::string(argv[i + 1]);
         }
@@ -117,13 +117,15 @@ int main(int argc, char* argv[]) {
         else if (std::string(argv[i]) == "-t"){ //indica o tipo de dicionario: arvore avl ou hash
             tipoDic = std::string(argv[i + 1]);
         }
-    }*/
+    }
 
     // ------ Cria Dicionario
-    tipoDic= "arv"; caminhoEntrada = "teste.txt"; caminhoSaida = "saida.txt";
     //verificando se o tipo do dicionario especificado está correto
     avisoAssert(tipoDic == "arv" ||tipoDic == "hash" , "Tipo de dicionário inválido! Você quis dizer: `arv` ou `hash`?");
     
+    if(caminhoSaida=="out.txt"){
+        std::cout <<"Caminho saida não especificado. Caminho padrão `out.txt`";
+    }
 
     if(tipoDic == "arv"){
         executarArv(caminhoEntrada, caminhoSaida);
