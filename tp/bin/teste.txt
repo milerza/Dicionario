@@ -1,0 +1,158 @@
+a [able] capable
+a [abnormal]
+a [absent]
+a [absolute] perfect or complete
+a [abstract] existing only in the mind
+a [abundant] plentiful
+a [academic]
+a [acceptable]
+a [accessible]
+a [accurate]
+a [active] vigorous
+a [acute]
+a [addicted] hooked
+a [adequate]
+a [aesthetic]
+a [afraid]
+a [aggressive]
+a [agile] nimble, spry, quick
+a [agricultural]
+a [alert]
+a [alive] live
+a [aloof] distant
+a [amber] yellowish
+a [ambiguous] equivocal
+a [ambitious]
+a [ample] sizable, capacious
+a [angry]
+a [annual] yearly
+a [anonymous]
+a [applied] concerned with concrete problems or data
+a [appropriate]
+a [arbitrary]
+a [archaeological]
+a [arrogant] self-important
+a [artificial] unreal, unnatural
+a [artistic]
+a [ashamed]
+a [asleep]
+a [assertive] self-assured
+a [astonishing] astounding, staggering
+a [attractive] pleasing to the eye or mind
+a [automatic] operating with minimal human intervention
+a [available] obtainable
+a [awake]
+a [aware] mindful
+a [awful] dreadful, terrible
+a [awkward]
+a [bad] immoral, evil
+a [bad] below average in quality or performance, defective
+a [bad] spoiled, spoilt, capable of harming
+a [balanced]
+a [bald] lacking hair
+a [bare] lacking its natural or customary covering
+a [basic] pertaining to a base or basis
+a [beautiful] possessing beauty
+a [bitter] acrimonious, resentful
+a [bitter] bitter-tasting
+a [black] achromatic
+a [black] without cream or sugar
+a [bland] tasteless, insipid, flavorless
+a [blank] empty, not filled in
+a [blind] unsighted
+a [blonde] light-haired
+a [bloody] covered with blood
+a [bold] fearless and daring
+a [brave] courageous, fearless
+a [broken] physically separated into pieces
+a [brown] having a brown color
+a [bureaucratic]
+a [busy]
+a [capable]
+a [careful]
+a [cautious]
+a [central] in or near a center
+a [certain] sure
+a [characteristic]
+a [charismatic] possessing a magnetic personality
+a [cheap] inexpensive
+a [cheerful]
+a [childish] infantile
+a [chronic]
+a [civic]
+a [civilian]
+a [classical]
+a [clean] free from dirt
+a [clear] free from clouds or mist or haze
+a [clear] well-defined
+a [close] close in relevance or relationship
+a [close] near
+a [closed] shut, unopen
+a [cold] physically cold
+a [cold] without human warmth or emotion
+a [color-blind] unable to distinguish colors
+a [colorful] vivid in color
+a [comfortable] comfy
+a [commercial]
+a [common] average or ordinary or usual
+a [common] belonging to a community
+a [common] mutual
+a [comparable]
+a [compatible]
+a [competent]
+a [competitive]
+a [complete] having every necessary part
+a [complex] complicated
+a [comprehensive] all-including
+a [concrete] material
+a [confident]
+a [conscious] aware
+a [conservative] resistant to change
+a [considerable]
+a [consistent]
+a [constant] steadfast, unwavering
+a [constant] unending, incessant
+a [constitutional] relating to a/the constitution
+a [constructive]
+a [content] contented
+a [continental] relating to a continent
+a [continuous] uninterrupted
+a [controversial]
+a [convenient]
+a [conventional] following accepted customs
+a [cool] neither warm or very cold in temperature
+a [cool] unenthusiastic, unfriendly, unresponsive
+a [cooperative] co-operative
+a [corporate]
+a [critical] tending to find errors and flaws
+a [critical] being in a state of crisis or emergency
+a [critical] vital urgently needed
+a [crude] unrefined, unprocessed
+a [crude] primitive
+a [cruel] brutal, barbarous
+a [cultural] relating to arts
+a [curious]
+a [current]
+a [cute] attractive
+a [daily]
+a [dangerous] unsafe
+a [dark] devoid of light
+a [dead] inanimate
+a [deadly] lethal
+a [deaf]
+a [decisive] determining
+a [decorative] cosmetic, ornamental
+a [deep] having great spatial extension downward
+a [definite] precise, explicit
+a [delicate] exquisitely fine and subtle
+a [delicate] fragile, frail, easily broken, sensitive
+a [democratic] based upon the principles of democracy
+a [dependent]
+a [desirable]
+a [different] unlike, dissimilar
+a [difficult] hard
+a [digital] discrete
+a [diplomatic] diplomatical, suave
+a [direct] without deviation or interruption
+a [dirty] soiled, unclean
+a [dirty] obscene, indecent

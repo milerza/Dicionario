@@ -5,14 +5,15 @@
 #include <fstream>
 
 class Verbete{
-    public: 
+    public:
         int tam = 0, max = 10;
-        std::string significado[10];
+        std::string * significado;
         std::string palavra;
         char tipoPalavra;
 
+        Verbete();
         bool vazio(){return tam == 0;}
-        bool cheio(){return tam == max;}
+        bool cheio(){return tam >= max;}
 };
 
 //--- tam :
@@ -21,13 +22,12 @@ class Verbete{
 // --- max : é o maximo de significados por nó
 class node {
     public:
-        Verbete item;
+        Verbete * item;
         int altura;
         node *folhaEsquerda;
         node *folhaDireita;
 
         node();
-        int alturaNo();
         
         int insereVerbete(Verbete * verbete);
         void imprimirNo(std::ofstream& outFile);

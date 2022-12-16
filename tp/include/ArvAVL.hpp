@@ -19,7 +19,7 @@ class ArvAVL{
         static const int minFB = -1,
             maxFB = 1;
 
-        void insereRecursivo(node* &p, Verbete * it);
+        node* insereRecursivo(node* &p, Verbete it);
         node *balancearArvore(node *p);
         node * removeRecursivo(node* &p, Verbete it);
         void pesquisa(node * p, int * i);
@@ -34,7 +34,6 @@ class ArvAVL{
         int max(int v1, int v2);
         void apagaRecursivo(node *p);
         void limpa();
-        //void apagaRec(node *p);
         
 };
 

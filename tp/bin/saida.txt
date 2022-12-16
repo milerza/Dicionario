@@ -1,0 +1,7478 @@
+AIDS (n)
+1.
+Bible (n)
+1.
+Europe (n)
+1.
+Koran (n)
+1.
+Mars (n)
+1.
+Sunday (n)
+1.
+Venus (n)
+1.
+X-ray (n)
+1.
+abandon (v)
+1.
+abbey (n)
+1.
+ability (n)
+1.
+able (a)
+1.
+abnormal (a)
+1.
+abolish (v)
+1.
+abortion (n)
+1.
+abridge (v)
+1.
+absence (n)
+1.
+absent (a)
+1.
+absolute (a)
+1.
+absorb (v)
+1.
+absorption (n)
+1.
+abstract (a)
+1.
+abundant (a)
+1.
+abuse (n)
+1.
+academic (a)
+1.
+academy (n)
+1.
+accent (n)
+1.
+accept (v)
+1.
+acceptable (a)
+1.
+acceptance (n)
+1.
+access (n)
+1.
+accessible (a)
+1.
+accident (n)
+1.
+accompany (v)
+1.
+account (n)
+1.
+accountant (n)
+1.
+accumulation (n)
+1.
+accurate (a)
+1.
+achieve (v)
+1.
+achievement (n)
+1.
+acid (n)
+1.
+acquaintance (n)
+1.
+acquisition (n)
+1.
+acquit (v)
+1.
+act (n)
+1.
+action (n)
+1.
+activate (v)
+1.
+active (a)
+1.
+activity (n)
+1.
+acute (a)
+1.
+add (v)
+1.
+addicted (a)
+1.
+addition (n)
+1.
+address (n)
+1.
+adequate (a)
+1.
+adjust (v)
+1.
+administration (n)
+1.
+administrator (n)
+1.
+admiration (n)
+1.
+admire (v)
+1.
+admission (n)
+1.
+admit (v)
+1.
+adopt (v)
+1.
+adoption (n)
+1.
+adult (n)
+1.
+advance (n)
+1.
+advantage (n)
+1.
+adventure (n)
+1.
+advertise (v)
+1.
+advertising (n)
+1.
+advice (n)
+1.
+adviser (n)
+1.
+advocate (n)
+1.
+aesthetic (a)
+1.
+affair (n)
+1.
+affect (v)
+1.
+affinity (n)
+1.
+afford (v)
+1.
+afraid (a)
+1.
+afternoon (n)
+1.
+age (n)
+1.
+agency (n)
+1.
+agenda (n)
+1.
+agent (n)
+1.
+aggressive (a)
+1.
+agile (a)
+1.
+agony (n)
+1.
+agree (v)
+1.
+agreement (n)
+1.
+agricultural (a)
+1.
+agriculture (n)
+1.
+aid (n)
+1.
+air (n)
+1.
+aircraft (n)
+1.
+airline (n)
+1.
+airport (n)
+1.
+aisle (n)
+1.
+alarm (n)
+1.
+album (n)
+1.
+alcohol (n)
+1.
+alert (a)
+1.
+alimony (n)
+1.
+alive (a)
+1.
+allocation (n)
+1.
+allow (v)
+1.
+allowance (n)
+1.
+ally (n)
+1.
+aloof (a)
+1.
+altar (n)
+1.
+aluminium (n)
+1.
+amateur (n)
+1.
+amber (a)
+1.
+ambiguity (n)
+1.
+ambiguous (a)
+1.
+ambition (n)
+1.
+ambitious (a)
+1.
+ambulance (n)
+1.
+amendment (n)
+1.
+ample (a)
+1.
+amputate (v)
+1.
+amuse (v)
+1.
+analogy (n)
+1.
+analysis (n)
+1.
+analyst (n)
+1.
+ancestor (n)
+1.
+angel (n)
+1.
+anger (n)
+1.
+angle (n)
+1.
+angry (a)
+1.
+animal (n)
+1.
+ankle (n)
+1.
+anniversary (n)
+1.
+announcement (n)
+1.
+annual (a)
+1.
+anonymous (a)
+1.
+answer (n)
+1.
+ant (n)
+1.
+anticipation (n)
+1.
+anxiety (n)
+1.
+apathy (n)
+1.
+apologize (v)
+1.
+apology (n)
+1.
+apparatus (n)
+1.
+appeal (n)
+1.
+appear (v)
+1.
+appearance (n)
+1.
+appendix (n)
+1.
+appetite (n)
+1.
+applaud (v)
+1.
+apple (n)
+1.
+applicant (n)
+1.
+application (n)
+1.
+applied (a)
+1.
+appoint (v)
+1.
+appointment (n)
+1.
+appreciate (v)
+1.
+approach (v)
+1.
+appropriate (a)
+1.
+approval (n)
+1.
+approve (v)
+1.
+aquarium (n)
+1.
+arbitrary (a)
+1.
+arch (n)
+1.
+archaeological (a)
+1.
+architect (n)
+1.
+architecture (n)
+1.
+archive (n)
+1.
+area (n)
+1.
+arena (n)
+1.
+argument (n)
+1.
+arise (v)
+1.
+arm (n)
+1.
+armchair (n)
+1.
+army (n)
+1.
+arrange (v)
+1.
+arrangement (n)
+1.
+arrest (v)
+1.
+arrogant (a)
+1.
+arrow (n)
+1.
+art (n)
+1.
+article (n)
+1.
+articulate (a)
+1.
+artificial (a)
+1.
+artist (n)
+1.
+artistic (a)
+1.
+ascertain (v)
+1.
+ash (n)
+1.
+ashamed (a)
+1.
+ask (v)
+1.
+asleep (a)
+1.
+aspect (n)
+1.
+assault (n)
+1.
+assembly (n)
+1.
+assertion (n)
+1.
+assertive (a)
+1.
+assessment (n)
+1.
+asset (n)
+1.
+assignment (n)
+1.
+association (n)
+1.
+assume (v)
+1.
+assumption (n)
+1.
+assurance (n)
+1.
+astonishing (a)
+1.
+asylum (n)
+1.
+athlete (n)
+1.
+atmosphere (n)
+1.
+atom (n)
+1.
+attachment (n)
+1.
+attack (n)
+1.
+attention (n)
+1.
+attic (n)
+1.
+attitude (n)
+1.
+attract (v)
+1.
+attraction (n)
+1.
+attractive (a)
+1.
+auction (n)
+1.
+audience (n)
+1.
+auditor (n)
+1.
+aunt (n)
+1.
+authorise (v)
+1.
+authority (n)
+1.
+automatic (a)
+1.
+autonomy (n)
+1.
+available (a)
+1.
+avant-garde (n)
+1.
+avenue (n)
+1.
+average (n)
+1.
+aviation (n)
+1.
+avoid (v)
+1.
+awake (a)
+1.
+award (n)
+1.
+aware (a)
+1.
+awful (a)
+1.
+awkward (a)
+1.
+axis (n)
+1.
+baby (n)
+1.
+back (n)
+1.
+background (n)
+1.
+bacon (n)
+1.
+bad (a)
+1.
+bag (n)
+1.
+bail (n)
+1.
+bait (n)
+1.
+bake (v)
+1.
+balance (n)
+1.
+balanced (a)
+1.
+balcony (n)
+1.
+bald (a)
+1.
+ball (n)
+1.
+ballet (n)
+1.
+balloon (n)
+1.
+ballot (n)
+1.
+ban (n)
+1.
+banana (n)
+1.
+band (n)
+1.
+bang (n)
+1.
+banish (v)
+1.
+bank (n)
+1.
+bankruptcy (n)
+1.
+banner (n)
+1.
+banquet (n)
+1.
+bar (n)
+1.
+bare (a)
+1.
+bargain (v)
+1.
+bark (n)
+1.
+barrel (n)
+1.
+barrier (n)
+1.
+base (n)
+1.
+baseball (n)
+1.
+basic (a)
+1.
+basin (n)
+1.
+basis (n)
+1.
+basket (n)
+1.
+basketball (n)
+1.
+bat (n)
+1.
+bathroom (n)
+1.
+bathtub (n)
+1.
+battery (n)
+1.
+battle (n)
+1.
+battlefield (n)
+1.
+bay (n)
+1.
+beach (n)
+1.
+beam (n)
+1.
+bean (n)
+1.
+bear (n)
+1.
+beard (n)
+1.
+beat (n)
+1.
+beautiful (a)
+1.
+become (v)
+1.
+bed (n)
+1.
+bedroom (n)
+1.
+bee (n)
+1.
+beef (n)
+1.
+beer (n)
+1.
+beg (v)
+1.
+begin (v)
+1.
+beginning (n)
+1.
+behave (v)
+1.
+behavior (n)
+1.
+behead (v)
+1.
+belief (n)
+1.
+bell (n)
+1.
+belly (n)
+1.
+belong (v)
+1.
+belt (n)
+1.
+bench (n)
+1.
+bend (v)
+1.
+beneficiary (n)
+1.
+benefit (n)
+1.
+berry (n)
+1.
+bet (n)
+1.
+betray (v)
+1.
+bike (n)
+1.
+bill (n)
+1.
+bin (n)
+1.
+bind (v)
+1.
+biography (n)
+1.
+biology (n)
+1.
+bird (n)
+1.
+birthday (n)
+1.
+biscuit (n)
+1.
+bishop (n)
+1.
+bitch (n)
+1.
+bite (n)
+1.
+bitter (a)
+1.
+black (a)
+1.
+blackmail (n)
+1.
+blade (n)
+1.
+blame (v)
+1.
+bland (a)
+1.
+blank (a)
+1.
+blast (n)
+1.
+bleed (v)
+1.
+bless (v)
+1.
+blind (a)
+1.
+block (n)
+1.
+blonde (a)
+1.
+blood (n)
+1.
+bloodshed (n)
+1.
+bloody (a)
+1.
+blow (n)
+1.
+blue (n)
+1.
+blue jean (n)
+1.
+board (n)
+1.
+boat (n)
+1.
+body (n)
+1.
+boil (v)
+1.
+bold (a)
+1.
+bolt (n)
+1.
+bomb (n)
+1.
+bomber (n)
+1.
+bond (n)
+1.
+bone (n)
+1.
+book (n)
+1.
+boom (n)
+1.
+boot (n)
+1.
+border (n)
+1.
+borrow (v)
+1.
+bother (v)
+1.
+bottle (n)
+1.
+bottom (n)
+1.
+bounce (v)
+1.
+bow (n)
+1.
+bowel (n)
+1.
+bowl (n)
+1.
+box (n)
+1.
+boy (n)
+1.
+bracket (n)
+1.
+brag (v)
+1.
+braid (n)
+1.
+brain (n)
+1.
+brainstorm (n)
+1.
+brake (n)
+1.
+branch (n)
+1.
+brand (n)
+1.
+brave (a)
+1.
+bread (n)
+1.
+break (n)
+1.
+break down (v)
+1.
+break in (v)
+1.
+breakdown (n)
+1.
+breakfast (n)
+1.
+breast (n)
+1.
+breathe (v)
+1.
+breed (v)
+1.
+breeze (n)
+1.
+brewery (n)
+1.
+brick (n)
+1.
+bride (n)
+1.
+bridge (n)
+1.
+brilliance (n)
+1.
+bring (v)
+1.
+brink (n)
+1.
+broadcast (n)
+1.
+broccoli (n)
+1.
+broken (a)
+1.
+bronze (n)
+1.
+brother (n)
+1.
+brown (a)
+1.
+brush (n)
+1.
+bubble (n)
+1.
+bucket (n)
+1.
+budge (v)
+1.
+budget (n)
+1.
+buffet (n)
+1.
+build (v)
+1.
+building (n)
+1.
+bulb (n)
+1.
+bullet (n)
+1.
+bulletin (n)
+1.
+bundle (n)
+1.
+bureaucracy (n)
+1.
+bureaucratic (a)
+1.
+burial (n)
+1.
+burn (n)
+1.
+burst (v)
+1.
+bury (v)
+1.
+bus (n)
+1.
+bush (n)
+1.
+business (n)
+1.
+businessman (n)
+1.
+busy (a)
+1.
+butter (n)
+1.
+butterfly (n)
+1.
+buttocks (n)
+1.
+button (n)
+1.
+buy (v)
+1.
+cabin (n)
+1.
+cabinet (n)
+1.
+cable (n)
+1.
+cafe (n)
+1.
+cage (n)
+1.
+cake (n)
+1.
+calculation (n)
+1.
+calendar (n)
+1.
+calf (n)
+1.
+call (n)
+1.
+calm (v)
+1.
+calorie (n)
+1.
+camera (n)
+1.
+camp (n)
+1.
+campaign (n)
+1.
+can (n)
+1.
+cancel (v)
+1.
+cancer (n)
+1.
+candidate (n)
+1.
+candle (n)
+1.
+cane (n)
+1.
+canvas (n)
+1.
+cap (n)
+1.
+capable (a)
+1.
+capital (n)
+1.
+capitalism (n)
+1.
+captain (n)
+1.
+captivate (v)
+1.
+capture (v)
+1.
+car (n)
+1.
+carbon (n)
+1.
+card (n)
+1.
+care (n)
+1.
+career (n)
+1.
+careful (a)
+1.
+carpet (n)
+1.
+carriage (n)
+1.
+carrot (n)
+1.
+carry (v)
+1.
+cart (n)
+1.
+carve (v)
+1.
+case (n)
+1.
+cash (n)
+1.
+cassette (n)
+1.
+cast (n)
+1.
+castle (n)
+1.
+casualty (n)
+1.
+cat (n)
+1.
+catalogue (n)
+1.
+catch (n)
+1.
+category (n)
+1.
+cater (v)
+1.
+cathedral (n)
+1.
+cattle (n)
+1.
+cause (n)
+1.
+cautious (a)
+1.
+cave (n)
+1.
+ceiling (n)
+1.
+celebration (n)
+1.
+cell (n)
+1.
+cell phone (n)
+1.
+cellar (n)
+1.
+cemetery (n)
+1.
+censorship (n)
+1.
+census (n)
+1.
+center (n)
+1.
+central (a)
+1.
+century (n)
+1.
+cereal (n)
+1.
+ceremony (n)
+1.
+certain (a)
+1.
+certificate (n)
+1.
+chain (n)
+1.
+chair (n)
+1.
+chalk (n)
+1.
+challenge (n)
+1.
+champagne (n)
+1.
+champion (n)
+1.
+chance (n)
+1.
+change (n)
+1.
+channel (n)
+1.
+chaos (n)
+1.
+chapter (n)
+1.
+character (n)
+1.
+characteristic (a)
+1.
+charge (n)
+1.
+charismatic (a)
+1.
+charity (n)
+1.
+charm (n)
+1.
+chart (n)
+1.
+charter (n)
+1.
+chase (v)
+1.
+chauvinist (n)
+1.
+cheap (a)
+1.
+cheat (v)
+1.
+check (n)
+1.
+cheek (n)
+1.
+cheerful (a)
+1.
+cheese (n)
+1.
+chemical (n)
+1.
+chemistry (n)
+1.
+cheque (n)
+1.
+cherry (n)
+1.
+chest (n)
+1.
+chew (v)
+1.
+chicken (n)
+1.
+chief (n)
+1.
+child (n)
+1.
+childhood (n)
+1.
+childish (a)
+1.
+chimney (n)
+1.
+chimpanzee (n)
+1.
+chin (n)
+1.
+chip (n)
+1.
+chocolate (n)
+1.
+choice (n)
+1.
+choke (v)
+1.
+choose (v)
+1.
+chop (v)
+1.
+chord (n)
+1.
+chorus (n)
+1.
+chronic (a)
+1.
+church (n)
+1.
+cigarette (n)
+1.
+cinema (n)
+1.
+circle (n)
+1.
+circulate (v)
+1.
+circulation (n)
+1.
+circumstance (n)
+1.
+citizen (n)
+1.
+city (n)
+1.
+civic (a)
+1.
+civilian (a)
+1.
+civilization (n)
+1.
+claim (n)
+1.
+clarify (v)
+1.
+clash (n)
+1.
+class (n)
+1.
+classical (a)
+1.
+classify (v)
+1.
+classroom (n)
+1.
+clay (n)
+1.
+clean (a)
+1.
+clear (a)
+1.
+clearance (n)
+1.
+clerk (n)
+1.
+climate (n)
+1.
+climb (v)
+1.
+clinic (n)
+1.
+clique (n)
+1.
+clock (n)
+1.
+close (a)
+1.
+closed (a)
+1.
+clothes (n)
+1.
+cloud (n)
+1.
+club (n)
+1.
+clue (n)
+1.
+cluster (n)
+1.
+coach (n)
+1.
+coal (n)
+1.
+coalition (n)
+1.
+coast (n)
+1.
+coat (n)
+1.
+code (n)
+1.
+coerce (v)
+1.
+coffee (n)
+1.
+coffin (n)
+1.
+coin (n)
+1.
+coincide (v)
+1.
+coincidence (n)
+1.
+cold (a)
+1.
+collapse (v)
+1.
+collar (n)
+1.
+colleague (n)
+1.
+collect (v)
+1.
+collection (n)
+1.
+college (n)
+1.
+colon (n)
+1.
+colony (n)
+1.
+color (n)
+1.
+color-blind (a)
+1.
+colorful (a)
+1.
+column (n)
+1.
+coma (n)
+1.
+combination (n)
+1.
+combine (v)
+1.
+comedy (n)
+1.
+comet (n)
+1.
+comfort (n)
+1.
+comfortable (a)
+1.
+comic strip (n)
+1.
+command (n)
+1.
+commemorate (v)
+1.
+comment (n)
+1.
+commerce (n)
+1.
+commercial (a)
+1.
+commission (n)
+1.
+commitment (n)
+1.
+committee (n)
+1.
+common (a)
+1.
+communication (n)
+1.
+communist (n)
+1.
+community (n)
+1.
+compact (n)
+1.
+company (n)
+1.
+comparable (a)
+1.
+compare (v)
+1.
+comparison (n)
+1.
+compartment (n)
+1.
+compatible (a)
+1.
+compensation (n)
+1.
+compete (v)
+1.
+competence (n)
+1.
+competent (a)
+1.
+competition (n)
+1.
+competitive (a)
+1.
+complain (v)
+1.
+complete (a)
+1.
+complex (a)
+1.
+compliance (n)
+1.
+complication (n)
+1.
+compose (v)
+1.
+composer (n)
+1.
+compound (n)
+1.
+comprehensive (a)
+1.
+compromise (n)
+1.
+computer (n)
+1.
+computer virus (n)
+1.
+computing (n)
+1.
+concede (v)
+1.
+conceive (v)
+1.
+concentrate (v)
+1.
+concentration (n)
+1.
+concept (n)
+1.
+conception (n)
+1.
+concern (n)
+1.
+concert (n)
+1.
+concession (n)
+1.
+conclusion (n)
+1.
+concrete (a)
+1.
+condition (n)
+1.
+conductor (n)
+1.
+conference (n)
+1.
+confession (n)
+1.
+confidence (n)
+1.
+confident (a)
+1.
+confine (v)
+1.
+conflict (n)
+1.
+confront (v)
+1.
+confrontation (n)
+1.
+confuse (v)
+1.
+confusion (n)
+1.
+conglomerate (n)
+1.
+congratulate (v)
+1.
+congress (n)
+1.
+connection (n)
+1.
+conscience (n)
+1.
+conscious (a)
+1.
+consciousness (n)
+1.
+consensus (n)
+1.
+conservation (n)
+1.
+conservative (a)
+1.
+consider (v)
+1.
+considerable (a)
+1.
+consideration (n)
+1.
+consistent (a)
+1.
+consolidate (v)
+1.
+conspiracy (n)
+1.
+constant (a)
+1.
+constellation (n)
+1.
+constituency (n)
+1.
+constitution (n)
+1.
+constitutional (a)
+1.
+constraint (n)
+1.
+construct (v)
+1.
+constructive (a)
+1.
+consultation (n)
+1.
+consumer (n)
+1.
+consumption (n)
+1.
+contact (n)
+1.
+contain (v)
+1.
+contemporary (n)
+1.
+contempt (n)
+1.
+content (a)
+1.
+contest (n)
+1.
+context (n)
+1.
+continental (a)
+1.
+continuation (n)
+1.
+continuous (a)
+1.
+contract (n)
+1.
+contraction (n)
+1.
+contradiction (n)
+1.
+contrary (n)
+1.
+contrast (n)
+1.
+contribution (n)
+1.
+control (n)
+1.
+controversial (a)
+1.
+convenience (n)
+1.
+convenient (a)
+1.
+convention (n)
+1.
+conventional (a)
+1.
+conversation (n)
+1.
+convert (v)
+1.
+convict (v)
+1.
+conviction (n)
+1.
+convince (v)
+1.
+convulsion (n)
+1.
+cook (n)
+1.
+cool (a)
+1.
+cooperate (v)
+1.
+cooperation (n)
+1.
+cooperative (a)
+1.
+cope (v)
+1.
+copper (n)
+1.
+copy (n)
+1.
+copyright (n)
+1.
+cord (n)
+1.
+core (n)
+1.
+corn (n)
+1.
+corner (n)
+1.
+corporate (a)
+1.
+corpse (n)
+1.
+correction (n)
+1.
+correlation (n)
+1.
+correspond (v)
+1.
+correspondence (n)
+1.
+corruption (n)
+1.
+costume (n)
+1.
+cottage (n)
+1.
+cotton (n)
+1.
+cough (v)
+1.
+council (n)
+1.
+count (v)
+1.
+counter (n)
+1.
+country (n)
+1.
+countryside (n)
+1.
+coup (n)
+1.
+couple (n)
+1.
+courage (n)
+1.
+course (n)
+1.
+court (n)
+1.
+courtesy (n)
+1.
+courtship (n)
+1.
+cousin (n)
+1.
+cover (n)
+1.
+coverage (n)
+1.
+cow (n)
+1.
+cower (v)
+1.
+crack (n)
+1.
+crackpot (n)
+1.
+craft (n)
+1.
+craftsman (n)
+1.
+crash (n)
+1.
+cream (n)
+1.
+create (v)
+1.
+creation (n)
+1.
+credibility (n)
+1.
+credit (n)
+1.
+credit card (n)
+1.
+creed (n)
+1.
+creep (v)
+1.
+crevice (n)
+1.
+crew (n)
+1.
+cricket (n)
+1.
+crime (n)
+1.
+criminal (n)
+1.
+crisis (n)
+1.
+critic (n)
+1.
+critical (a)
+1.
+criticism (n)
+1.
+crop (n)
+1.
+cross (n)
+1.
+crossing (n)
+1.
+crosswalk (n)
+1.
+crouch (v)
+1.
+crowd (n)
+1.
+crown (n)
+1.
+crude (a)
+1.
+cruel (a)
+1.
+cruelty (n)
+1.
+cruise (n)
+1.
+crusade (n)
+1.
+crutch (n)
+1.
+cry (v)
+1.
+crystal (n)
+1.
+cucumber (n)
+1.
+cultivate (v)
+1.
+cultural (a)
+1.
+culture (n)
+1.
+cunning (n)
+1.
+cup (n)
+1.
+cupboard (n)
+1.
+curious (a)
+1.
+curl (v)
+1.
+currency (n)
+1.
+current (a)
+1.
+curriculum (n)
+1.
+curtain (n)
+1.
+curve (n)
+1.
+cushion (n)
+1.
+custody (n)
+1.
+customer (n)
+1.
+cut (n)
+1.
+cute (a)
+1.
+cutting (n)
+1.
+cycle (n)
+1.
+cylinder (n)
+1.
+daily (a)
+1.
+dairy (n)
+1.
+damage (n)
+1.
+damn (v)
+1.
+dance (v)
+1.
+danger (n)
+1.
+dangerous (a)
+1.
+dare (v)
+1.
+dark (a)
+1.
+dash (v)
+1.
+date (n)
+1.
+daughter (n)
+1.
+dawn (n)
+1.
+day (n)
+1.
+daylight (n)
+1.
+dead (a)
+1.
+deadline (n)
+1.
+deadly (a)
+1.
+deaf (a)
+1.
+deal (n)
+1.
+dealer (n)
+1.
+death (n)
+1.
+debate (n)
+1.
+debt (n)
+1.
+debut (v)
+1.
+decade (n)
+1.
+decay (n)
+1.
+decide (v)
+1.
+decisive (a)
+1.
+deck (n)
+1.
+declaration (n)
+1.
+decline (v)
+1.
+decoration (n)
+1.
+decorative (a)
+1.
+decrease (n)
+1.
+dedicate (v)
+1.
+deep (a)
+1.
+deer (n)
+1.
+default (n)
+1.
+defeat (n)
+1.
+defend (v)
+1.
+defendant (n)
+1.
+deficiency (n)
+1.
+deficit (n)
+1.
+define (v)
+1.
+definite (a)
+1.
+definition (n)
+1.
+degree (n)
+1.
+delay (n)
+1.
+delegate (n)
+1.
+delete (v)
+1.
+delicate (a)
+1.
+deliver (v)
+1.
+delivery (n)
+1.
+demand (n)
+1.
+democracy (n)
+1.
+democratic (a)
+1.
+demolish (v)
+1.
+demonstrate (v)
+1.
+demonstration (n)
+1.
+demonstrator (n)
+1.
+denial (n)
+1.
+denounce (v)
+1.
+density (n)
+1.
+dentist (n)
+1.
+deny (v)
+1.
+depart (v)
+1.
+departure (n)
+1.
+depend (v)
+1.
+dependence (n)
+1.
+dependent (a)
+1.
+deport (v)
+1.
+deposit (n)
+1.
+depressed (a)
+1.
+depression (n)
+1.
+deprivation (n)
+1.
+deprive (v)
+1.
+deputy (n)
+1.
+descent (n)
+1.
+describe (v)
+1.
+desert (n)
+1.
+deserve (v)
+1.
+design (n)
+1.
+designer (n)
+1.
+desirable (a)
+1.
+desire (n)
+1.
+desk (n)
+1.
+despair (n)
+1.
+despise (v)
+1.
+destruction (n)
+1.
+detail (n)
+1.
+detective (n)
+1.
+detector (n)
+1.
+deter (v)
+1.
+deteriorate (v)
+1.
+determine (v)
+1.
+develop (v)
+1.
+development (n)
+1.
+deviation (n)
+1.
+devote (v)
+1.
+diagnosis (n)
+1.
+diagram (n)
+1.
+dialect (n)
+1.
+dialogue (n)
+1.
+diameter (n)
+1.
+diamond (n)
+1.
+dictate (v)
+1.
+dictionary (n)
+1.
+die (v)
+1.
+diet (n)
+1.
+differ (v)
+1.
+difference (n)
+1.
+different (a)
+1.
+difficult (a)
+1.
+difficulty (n)
+1.
+dig (v)
+1.
+digital (a)
+1.
+dignity (n)
+1.
+digress (v)
+1.
+dilemma (n)
+1.
+dilute (v)
+1.
+dimension (n)
+1.
+dine (v)
+1.
+dinner (n)
+1.
+dip (v)
+1.
+diplomat (n)
+1.
+diplomatic (a)
+1.
+direct (a)
+1.
+direction (n)
+1.
+director (n)
+1.
+directory (n)
+1.
+dirty (a)
+1.
+disability (n)
+1.
+disadvantage (n)
+1.
+disagree (v)
+1.
+disagreement (n)
+1.
+disappear (v)
+1.
+disappoint (v)
+1.
+disappointment (n)
+1.
+disaster (n)
+1.
+discipline (n)
+1.
+disclose (v)
+1.
+disco (n)
+1.
+discount (n)
+1.
+discourage (v)
+1.
+discover (v)
+1.
+discovery (n)
+1.
+discreet (a)
+1.
+discriminate (v)
+1.
+discrimination (n)
+1.
+discuss (v)
+1.
+disease (n)
+1.
+disgrace (n)
+1.
+disguise (v)
+1.
+dish (n)
+1.
+disk (n)
+1.
+dislike (v)
+1.
+dismiss (v)
+1.
+dismissal (n)
+1.
+disorder (n)
+1.
+displace (v)
+1.
+display (n)
+1.
+disposition (n)
+1.
+distance (n)
+1.
+distant (a)
+1.
+distinct (a)
+1.
+distort (v)
+1.
+distortion (n)
+1.
+distribute (v)
+1.
+distributor (n)
+1.
+district (n)
+1.
+disturbance (n)
+1.
+ditch (v)
+1.
+dive (v)
+1.
+divide (v)
+1.
+dividend (n)
+1.
+division (n)
+1.
+divorce (n)
+1.
+doctor (n)
+1.
+document (n)
+1.
+dog (n)
+1.
+doll (n)
+1.
+dollar (n)
+1.
+dolphin (n)
+1.
+dome (n)
+1.
+domestic (a)
+1.
+dominant (a)
+1.
+dominate (v)
+1.
+domination (n)
+1.
+donate (v)
+1.
+donor (n)
+1.
+door (n)
+1.
+dorm (n)
+1.
+dose (n)
+1.
+double (n)
+1.
+doubt (n)
+1.
+dough (n)
+1.
+dozen (n)
+1.
+draft (n)
+1.
+drag (v)
+1.
+dragon (n)
+1.
+drain (n)
+1.
+drama (n)
+1.
+dramatic (a)
+1.
+draw (v)
+1.
+drawer (n)
+1.
+drawing (n)
+1.
+dream (n)
+1.
+dress (v)
+1.
+dressing (n)
+1.
+dribble (v)
+1.
+drift (n)
+1.
+drill (n)
+1.
+drink (n)
+1.
+drive (n)
+1.
+driver (n)
+1.
+drop (n)
+1.
+drown (v)
+1.
+drug (n)
+1.
+drum (n)
+1.
+drunkenness (n)
+1.
+dry (a)
+1.
+duck (n)
+1.
+due (a)
+1.
+duke (n)
+1.
+dull (a)
+1.
+dump (v)
+1.
+duration (n)
+1.
+dust (n)
+1.
+duty (n)
+1.
+dynamic (a)
+1.
+eager (a)
+1.
+eagle (n)
+1.
+ear (n)
+1.
+early (a)
+1.
+earthquake (n)
+1.
+east (n)
+1.
+easy (a)
+1.
+eat (v)
+1.
+eavesdrop (v)
+1.
+echo (n)
+1.
+economic (a)
+1.
+economics (n)
+1.
+economist (n)
+1.
+economy (n)
+1.
+ecstasy (n)
+1.
+edge (n)
+1.
+edition (n)
+1.
+education (n)
+1.
+educational (a)
+1.
+effect (n)
+1.
+effective (a)
+1.
+efficient (a)
+1.
+effort (n)
+1.
+egg (n)
+1.
+egg white (n)
+1.
+ego (n)
+1.
+eject (v)
+1.
+elaborate (v)
+1.
+elapse (v)
+1.
+elbow (n)
+1.
+elect (v)
+1.
+election (n)
+1.
+electorate (n)
+1.
+electricity (n)
+1.
+electron (n)
+1.
+electronic (a)
+1.
+electronics (n)
+1.
+elegant (a)
+1.
+element (n)
+1.
+elephant (n)
+1.
+eligible (a)
+1.
+eliminate (v)
+1.
+elite (n)
+1.
+embark (v)
+1.
+embarrassment (n)
+1.
+embassy (n)
+1.
+embrace (v)
+1.
+embryo (n)
+1.
+emergency (n)
+1.
+emotion (n)
+1.
+emotional (a)
+1.
+emphasis (n)
+1.
+empire (n)
+1.
+empirical (a)
+1.
+employ (v)
+1.
+employee (n)
+1.
+employer (n)
+1.
+employment (n)
+1.
+empty (a)
+1.
+encourage (v)
+1.
+encouraging (a)
+1.
+end (n)
+1.
+endorse (v)
+1.
+endure (v)
+1.
+enemy (n)
+1.
+energy (n)
+1.
+engagement (n)
+1.
+engine (n)
+1.
+engineer (n)
+1.
+enhance (v)
+1.
+enjoy (v)
+1.
+enjoyable (a)
+1.
+enlarge (v)
+1.
+ensure (v)
+1.
+enter (v)
+1.
+entertain (v)
+1.
+entertainment (n)
+1.
+enthusiasm (n)
+1.
+enthusiastic (a)
+1.
+entitlement (n)
+1.
+entry (n)
+1.
+envelope (n)
+1.
+environment (n)
+1.
+environmental (a)
+1.
+episode (n)
+1.
+equal (a)
+1.
+equation (n)
+1.
+equilibrium (n)
+1.
+equip (v)
+1.
+equipment (n)
+1.
+era (n)
+1.
+erosion (n)
+1.
+error (n)
+1.
+escape (v)
+1.
+essay (n)
+1.
+essential (a)
+1.
+establish (v)
+1.
+established (a)
+1.
+estate (n)
+1.
+estimate (n)
+1.
+eternal (a)
+1.
+ethical (a)
+1.
+ethics (n)
+1.
+ethnic (a)
+1.
+evaluate (v)
+1.
+even (a)
+1.
+evening (n)
+1.
+evoke (v)
+1.
+evolution (n)
+1.
+exact (a)
+1.
+exaggerate (v)
+1.
+examination (n)
+1.
+example (n)
+1.
+excavate (v)
+1.
+excavation (n)
+1.
+exceed (v)
+1.
+exception (n)
+1.
+excess (n)
+1.
+exchange (n)
+1.
+excited (a)
+1.
+excitement (n)
+1.
+exciting (a)
+1.
+exclude (v)
+1.
+exclusive (a)
+1.
+excuse (n)
+1.
+execute (v)
+1.
+execution (n)
+1.
+executive (n)
+1.
+exempt (v)
+1.
+exemption (n)
+1.
+exercise (n)
+1.
+exhibit (v)
+1.
+exhibition (n)
+1.
+exile (n)
+1.
+exit (n)
+1.
+exotic (a)
+1.
+expand (v)
+1.
+expansion (n)
+1.
+expect (v)
+1.
+expectation (n)
+1.
+expected (a)
+1.
+expedition (n)
+1.
+expenditure (n)
+1.
+expensive (a)
+1.
+experience (n)
+1.
+experienced (a)
+1.
+experiment (n)
+1.
+experimental (a)
+1.
+expert (n)
+1.
+expertise (n)
+1.
+explain (v)
+1.
+explanation (n)
+1.
+explicit (a)
+1.
+explode (v)
+1.
+exploit (v)
+1.
+exploration (n)
+1.
+explosion (n)
+1.
+export (v)
+1.
+expose (v)
+1.
+exposure (n)
+1.
+express (a)
+1.
+expression (n)
+1.
+extend (v)
+1.
+extension (n)
+1.
+extent (n)
+1.
+external (a)
+1.
+extinct (a)
+1.
+extort (v)
+1.
+extract (v)
+1.
+extraordinary (a)
+1.
+extraterrestrial (n)
+1.
+extreme (n)
+1.
+eye (n)
+1.
+eyebrow (n)
+1.
+fabricate (v)
+1.
+facade (n)
+1.
+face (n)
+1.
+facility (n)
+1.
+fact (n)
+1.
+factor (n)
+1.
+factory (n)
+1.
+fade (v)
+1.
+fail (v)
+1.
+failure (n)
+1.
+faint (v)
+1.
+fair (a)
+1.
+fairy (n)
+1.
+faith (n)
+1.
+faithful (a)
+1.
+fall (n)
+1.
+false (a)
+1.
+falsify (v)
+1.
+fame (n)
+1.
+familiar (a)
+1.
+family (n)
+1.
+fan (n)
+1.
+fantasy (n)
+1.
+far (a)
+1.
+fare (n)
+1.
+farewell (n)
+1.
+farm (n)
+1.
+farmer (n)
+1.
+fascinate (v)
+1.
+fashion (n)
+1.
+fashionable (a)
+1.
+fast (a)
+1.
+fastidious (a)
+1.
+fat (a)
+1.
+fate (n)
+1.
+father (n)
+1.
+fault (n)
+1.
+favor (n)
+1.
+favorable (a)
+1.
+favour (n)
+1.
+favourite (n)
+1.
+fax (n)
+1.
+fear (n)
+1.
+feast (n)
+1.
+feather (n)
+1.
+feature (n)
+1.
+federal (a)
+1.
+federation (n)
+1.
+fee (n)
+1.
+feed (v)
+1.
+feedback (n)
+1.
+feel (v)
+1.
+feeling (n)
+1.
+feign (v)
+1.
+feminine (a)
+1.
+feminist (n)
+1.
+fence (n)
+1.
+ferry (n)
+1.
+festival (n)
+1.
+fever (n)
+1.
+few (n)
+1.
+fibre (n)
+1.
+fiction (n)
+1.
+field (n)
+1.
+fig (n)
+1.
+fight (n)
+1.
+figure (n)
+1.
+file (n)
+1.
+fill (v)
+1.
+film (n)
+1.
+filter (n)
+1.
+final (n)
+1.
+finance (n)
+1.
+financial (a)
+1.
+find (v)
+1.
+fine (a)
+1.
+finger (n)
+1.
+finish (v)
+1.
+finished (a)
+1.
+fire (n)
+1.
+firefighter (n)
+1.
+fireplace (n)
+1.
+firm (n)
+1.
+first (a)
+1.
+first-hand (a)
+1.
+fish (n)
+1.
+fisherman (n)
+1.
+fist (n)
+1.
+fit (v)
+1.
+fitness (n)
+1.
+fix (v)
+1.
+fixture (n)
+1.
+flag (n)
+1.
+flash (n)
+1.
+flashlight (n)
+1.
+flat (a)
+1.
+flatware (n)
+1.
+flavor (n)
+1.
+flawed (a)
+1.
+fleet (n)
+1.
+flesh (n)
+1.
+flex (v)
+1.
+flexible (a)
+1.
+flight (n)
+1.
+fling (v)
+1.
+float (v)
+1.
+flock (n)
+1.
+flood (n)
+1.
+floor (n)
+1.
+flour (n)
+1.
+flourish (v)
+1.
+flow (v)
+1.
+flower (n)
+1.
+flu (n)
+1.
+fluctuation (n)
+1.
+fluid (n)
+1.
+flush (v)
+1.
+fly (n)
+1.
+fog (n)
+1.
+fold (n)
+1.
+folk (n)
+1.
+folk music (n)
+1.
+folklore (n)
+1.
+follow (v)
+1.
+food (n)
+1.
+fool (n)
+1.
+fool around (v)
+1.
+foolish (a)
+1.
+foot (n)
+1.
+football (n)
+1.
+forbid (v)
+1.
+force (n)
+1.
+forecast (n)
+1.
+forehead (n)
+1.
+foreigner (n)
+1.
+forest (n)
+1.
+forestry (n)
+1.
+forge (v)
+1.
+forget (v)
+1.
+fork (n)
+1.
+form (n)
+1.
+formal (a)
+1.
+format (n)
+1.
+formation (n)
+1.
+formula (n)
+1.
+formulate (v)
+1.
+fortune (n)
+1.
+forum (n)
+1.
+forward (a)
+1.
+fossil (n)
+1.
+foster (v)
+1.
+foundation (n)
+1.
+fountain (n)
+1.
+fox (n)
+1.
+fraction (n)
+1.
+fragment (n)
+1.
+fragrant (a)
+1.
+frame (v)
+1.
+franchise (n)
+1.
+frank (a)
+1.
+fraud (n)
+1.
+freckle (n)
+1.
+free (a)
+1.
+freedom (n)
+1.
+freeze (v)
+1.
+freight (n)
+1.
+freighter (n)
+1.
+frequency (n)
+1.
+frequent (a)
+1.
+fresh (a)
+1.
+freshman (n)
+1.
+friend (n)
+1.
+friendly (a)
+1.
+friendship (n)
+1.
+frighten (v)
+1.
+frog (n)
+1.
+front (n)
+1.
+frown (v)
+1.
+frozen (a)
+1.
+fruit (n)
+1.
+frustration (n)
+1.
+fuel (n)
+1.
+full (a)
+1.
+full-time (a)
+1.
+fun (n)
+1.
+function (n)
+1.
+functional (a)
+1.
+fund (n)
+1.
+funeral (n)
+1.
+funny (a)
+1.
+fur (n)
+1.
+furniture (n)
+1.
+fuss (n)
+1.
+future (n)
+1.
+gaffe (n)
+1.
+gain (v)
+1.
+galaxy (n)
+1.
+gallery (n)
+1.
+gallon (n)
+1.
+game (n)
+1.
+gap (n)
+1.
+garage (n)
+1.
+garbage (n)
+1.
+garden (n)
+1.
+garlic (n)
+1.
+gas (n)
+1.
+gas pedal (n)
+1.
+gasp (v)
+1.
+gate (n)
+1.
+gear (n)
+1.
+gem (n)
+1.
+gene (n)
+1.
+general (a)
+1.
+generate (v)
+1.
+generation (n)
+1.
+generous (a)
+1.
+genetic (a)
+1.
+gentleman (n)
+1.
+genuine (a)
+1.
+geography (n)
+1.
+geological (a)
+1.
+gesture (n)
+1.
+get (v)
+1.
+ghost (n)
+1.
+ghostwriter (n)
+1.
+giant (n)
+1.
+gift (n)
+1.
+girl (n)
+1.
+girlfriend (n)
+1.
+give (v)
+1.
+glacier (n)
+1.
+glad (a)
+1.
+glance (n)
+1.
+glare (v)
+1.
+glass (n)
+1.
+glasses (n)
+1.
+glide (v)
+1.
+glimpse (n)
+1.
+global (a)
+1.
+gloom (n)
+1.
+glorious (a)
+1.
+glory (n)
+1.
+glove (n)
+1.
+glow (n)
+1.
+glue (n)
+1.
+go (v)
+1.
+goal (n)
+1.
+goalkeeper (n)
+1.
+goat (n)
+1.
+god (n)
+1.
+gold (n)
+1.
+golf (n)
+1.
+good (a)
+1.
+gossip (n)
+1.
+government (n)
+1.
+governor (n)
+1.
+gown (n)
+1.
+grace (n)
+1.
+gradient (n)
+1.
+gradual (a)
+1.
+graduate (n)
+1.
+grain (n)
+1.
+grammar (n)
+1.
+grand (a)
+1.
+grandfather (n)
+1.
+grandmother (n)
+1.
+grant (n)
+1.
+graph (n)
+1.
+graphic (a)
+1.
+graphics (n)
+1.
+grass (n)
+1.
+grateful (a)
+1.
+grave (n)
+1.
+gravel (n)
+1.
+gravity (n)
+1.
+graze (v)
+1.
+great (a)
+1.
+green (a)
+1.
+greet (v)
+1.
+greeting (n)
+1.
+gregarious (a)
+1.
+grief (n)
+1.
+grimace (n)
+1.
+grin (v)
+1.
+grind (v)
+1.
+grip (n)
+1.
+groan (v)
+1.
+ground (n)
+1.
+grounds (n)
+1.
+grow (v)
+1.
+growth (n)
+1.
+grudge (n)
+1.
+guarantee (n)
+1.
+guard (n)
+1.
+guerrilla (n)
+1.
+guess (v)
+1.
+guest (n)
+1.
+guide (n)
+1.
+guideline (n)
+1.
+guilt (n)
+1.
+guitar (n)
+1.
+gun (n)
+1.
+gutter (n)
+1.
+habit (n)
+1.
+habitat (n)
+1.
+hair (n)
+1.
+haircut (n)
+1.
+half (n)
+1.
+hall (n)
+1.
+hallway (n)
+1.
+halt (n)
+1.
+ham (n)
+1.
+hammer (n)
+1.
+hand (n)
+1.
+handicap (v)
+1.
+handy (a)
+1.
+hang (v)
+1.
+happen (v)
+1.
+happy (a)
+1.
+harass (v)
+1.
+harbor (n)
+1.
+hard (a)
+1.
+hardship (n)
+1.
+hardware (n)
+1.
+harm (v)
+1.
+harmful (a)
+1.
+harmony (n)
+1.
+harsh (a)
+1.
+harvest (n)
+1.
+hat (n)
+1.
+hate (v)
+1.
+haul (v)
+1.
+haunt (v)
+1.
+have (v)
+1.
+hay (n)
+1.
+head (n)
+1.
+headline (n)
+1.
+headquarters (n)
+1.
+heal (v)
+1.
+health (n)
+1.
+healthy (a)
+1.
+hear (v)
+1.
+heart (n)
+1.
+heat (n)
+1.
+heaven (n)
+1.
+heavy (a)
+1.
+hedge (n)
+1.
+heel (n)
+1.
+height (n)
+1.
+heir (n)
+1.
+helicopter (n)
+1.
+hell (n)
+1.
+helmet (n)
+1.
+help (n)
+1.
+helpful (a)
+1.
+helpless (a)
+1.
+hemisphere (n)
+1.
+hen (n)
+1.
+herb (n)
+1.
+herd (n)
+1.
+hero (n)
+1.
+heroin (n)
+1.
+hesitate (v)
+1.
+hiccup (v)
+1.
+hide (v)
+1.
+hierarchy (n)
+1.
+high (a)
+1.
+highlight (n)
+1.
+highway (n)
+1.
+hike (v)
+1.
+hilarious (a)
+1.
+hill (n)
+1.
+hip (n)
+1.
+historian (n)
+1.
+historical (a)
+1.
+history (n)
+1.
+hit (v)
+1.
+hobby (n)
+1.
+hold (v)
+1.
+hole (n)
+1.
+holiday (n)
+1.
+holy (a)
+1.
+home (n)
+1.
+homosexual (a)
+1.
+honest (a)
+1.
+honey (n)
+1.
+honor (n)
+1.
+honorable (a)
+1.
+hook (n)
+1.
+hope (n)
+1.
+horizon (n)
+1.
+horizontal (a)
+1.
+horn (n)
+1.
+horoscope (n)
+1.
+horror (n)
+1.
+horse (n)
+1.
+horseshoe (n)
+1.
+hospital (n)
+1.
+hospitality (n)
+1.
+host (n)
+1.
+hostage (n)
+1.
+hostile (a)
+1.
+hostility (n)
+1.
+hot (a)
+1.
+hotdog (n)
+1.
+hotel (n)
+1.
+hour (n)
+1.
+house (n)
+1.
+houseplant (n)
+1.
+housewife (n)
+1.
+housing (n)
+1.
+hover (v)
+1.
+huge (a)
+1.
+human (a)
+1.
+human body (n)
+1.
+humanity (n)
+1.
+humor (n)
+1.
+hungry (a)
+1.
+hunter (n)
+1.
+hunting (n)
+1.
+hurl (v)
+1.
+hurt (v)
+1.
+husband (n)
+1.
+hut (n)
+1.
+hypnothize (v)
+1.
+hypothesis (n)
+1.
+hypothesize (v)
+1.
+ice (n)
+1.
+ice cream (n)
+1.
+idea (n)
+1.
+ideal (n)
+1.
+identification (n)
+1.
+identify (v)
+1.
+identity (n)
+1.
+ideology (n)
+1.
+ignite (v)
+1.
+ignorance (n)
+1.
+ignorant (a)
+1.
+ignore (v)
+1.
+illegal (a)
+1.
+illness (n)
+1.
+illusion (n)
+1.
+illustrate (v)
+1.
+illustration (n)
+1.
+image (n)
+1.
+imagination (n)
+1.
+imagine (v)
+1.
+immigrant (n)
+1.
+immigration (n)
+1.
+immune (a)
+1.
+impact (n)
+1.
+imperial (a)
+1.
+implication (n)
+1.
+implicit (a)
+1.
+import (n)
+1.
+importance (n)
+1.
+important (a)
+1.
+impossible (a)
+1.
+imposter (n)
+1.
+impound (v)
+1.
+impress (v)
+1.
+impressive (a)
+1.
+improve (v)
+1.
+improvement (n)
+1.
+impulse (n)
+1.
+inadequate (a)
+1.
+inappropriate (a)
+1.
+incapable (a)
+1.
+incentive (n)
+1.
+inch (n)
+1.
+incident (n)
+1.
+include (v)
+1.
+income (n)
+1.
+incongruous (a)
+1.
+increase (n)
+1.
+incredible (a)
+1.
+independent (a)
+1.
+index (n)
+1.
+index finger (n)
+1.
+indication (n)
+1.
+indigenous (a)
+1.
+indirect (a)
+1.
+individual (n)
+1.
+indoor (a)
+1.
+indulge (v)
+1.
+industrial (a)
+1.
+industry (n)
+1.
+inevitable (a)
+1.
+infect (v)
+1.
+infection (n)
+1.
+infinite (a)
+1.
+inflate (v)
+1.
+inflation (n)
+1.
+influence (n)
+1.
+influential (a)
+1.
+informal (a)
+1.
+information (n)
+1.
+infrastructure (n)
+1.
+ingredient (n)
+1.
+inhabitant (n)
+1.
+inherit (v)
+1.
+inhibition (n)
+1.
+initial (n)
+1.
+initiative (n)
+1.
+inject (v)
+1.
+injection (n)
+1.
+injure (v)
+1.
+injury (n)
+1.
+inn (n)
+1.
+inner (a)
+1.
+innocent (a)
+1.
+innovation (n)
+1.
+inquiry (n)
+1.
+insect (n)
+1.
+insert (v)
+1.
+inside (n)
+1.
+insider (n)
+1.
+insight (n)
+1.
+insist (v)
+1.
+insistence (n)
+1.
+inspector (n)
+1.
+inspiration (n)
+1.
+inspire (v)
+1.
+instal (v)
+1.
+install (v)
+1.
+instinct (n)
+1.
+institution (n)
+1.
+instruction (n)
+1.
+instrument (n)
+1.
+insufficient (a)
+1.
+insurance (n)
+1.
+insure (v)
+1.
+integrated (a)
+1.
+integration (n)
+1.
+integrity (n)
+1.
+intellectual (a)
+1.
+intelligence (n)
+1.
+intense (a)
+1.
+intensify (v)
+1.
+intention (n)
+1.
+interaction (n)
+1.
+interactive (a)
+1.
+interest (n)
+1.
+interesting (a)
+1.
+interface (n)
+1.
+interference (n)
+1.
+intermediate (a)
+1.
+internal (a)
+1.
+international (a)
+1.
+interrupt (v)
+1.
+intervention (n)
+1.
+interview (n)
+1.
+introduce (v)
+1.
+introduction (n)
+1.
+invasion (n)
+1.
+investigation (n)
+1.
+investigator (n)
+1.
+investment (n)
+1.
+invisible (a)
+1.
+invitation (n)
+1.
+invite (v)
+1.
+iron (n)
+1.
+irony (n)
+1.
+irrelevant (a)
+1.
+island (n)
+1.
+isolation (n)
+1.
+issue (n)
+1.
+item (n)
+1.
+ivory (n)
+1.
+jacket (n)
+1.
+jail (v)
+1.
+jam (n)
+1.
+jar (n)
+1.
+jaw (n)
+1.
+jazz (n)
+1.
+jealous (a)
+1.
+jelly (n)
+1.
+jest (v)
+1.
+jet (n)
+1.
+jewel (n)
+1.
+job (n)
+1.
+jockey (n)
+1.
+joint (a)
+1.
+joke (n)
+1.
+journal (n)
+1.
+joy (n)
+1.
+joystick (n)
+1.
+judge (n)
+1.
+judgment (n)
+1.
+judicial (a)
+1.
+juice (n)
+1.
+jump (n)
+1.
+junction (n)
+1.
+jungle (n)
+1.
+junior (a)
+1.
+jurisdiction (n)
+1.
+jury (n)
+1.
+just (a)
+1.
+justice (n)
+1.
+justification (n)
+1.
+justify (v)
+1.
+keep (v)
+1.
+kettle (n)
+1.
+key (n)
+1.
+kick (n)
+1.
+kid (n)
+1.
+kidnap (v)
+1.
+kidney (n)
+1.
+kill (v)
+1.
+killer (n)
+1.
+kind (a)
+1.
+king (n)
+1.
+kingdom (n)
+1.
+kinship (n)
+1.
+kiss (v)
+1.
+kit (n)
+1.
+kitchen (n)
+1.
+kite (n)
+1.
+knead (v)
+1.
+knee (n)
+1.
+kneel (v)
+1.
+knife (n)
+1.
+knit (v)
+1.
+knock (v)
+1.
+knot (n)
+1.
+know (v)
+1.
+knowledge (n)
+1.
+label (n)
+1.
+laboratory (n)
+1.
+laborer (n)
+1.
+labour (n)
+1.
+lace (n)
+1.
+lack (n)
+1.
+ladder (n)
+1.
+lady (n)
+1.
+lake (n)
+1.
+lamb (n)
+1.
+lamp (n)
+1.
+land (n)
+1.
+landlord (n)
+1.
+landowner (n)
+1.
+landscape (n)
+1.
+lane (n)
+1.
+language (n)
+1.
+lap (n)
+1.
+large (a)
+1.
+laser (n)
+1.
+last (a)
+1.
+late (a)
+1.
+latest (a)
+1.
+laugh (v)
+1.
+launch (v)
+1.
+laundry (n)
+1.
+law (n)
+1.
+lawn (n)
+1.
+lawyer (n)
+1.
+lay (v)
+1.
+layer (n)
+1.
+layout (n)
+1.
+lazy (a)
+1.
+lead (n)
+1.
+leader (n)
+1.
+leadership (n)
+1.
+leaf (n)
+1.
+leaflet (n)
+1.
+leak (v)
+1.
+lean (v)
+1.
+learn (v)
+1.
+lease (n)
+1.
+leash (n)
+1.
+leather (n)
+1.
+leave (n)
+1.
+lecture (n)
+1.
+left (a)
+1.
+leftovers (n)
+1.
+leg (n)
+1.
+legal (a)
+1.
+legend (n)
+1.
+legislate (v)
+1.
+legislation (n)
+1.
+legislative (a)
+1.
+legislature (n)
+1.
+leisure (n)
+1.
+lemon (n)
+1.
+lend (v)
+1.
+length (n)
+1.
+lesson (n)
+1.
+letter (n)
+1.
+level (n)
+1.
+liability (n)
+1.
+liberal (a)
+1.
+liberty (n)
+1.
+library (n)
+1.
+licence (n)
+1.
+license (v)
+1.
+lick (v)
+1.
+lid (n)
+1.
+lie (n)
+1.
+life (n)
+1.
+lifestyle (n)
+1.
+lift (n)
+1.
+light (a)
+1.
+lighter (n)
+1.
+like (v)
+1.
+likely (a)
+1.
+lily (n)
+1.
+limb (n)
+1.
+limit (n)
+1.
+limitation (n)
+1.
+limited (a)
+1.
+line (n)
+1.
+lineage (n)
+1.
+linear (a)
+1.
+linen (n)
+1.
+linger (v)
+1.
+link (n)
+1.
+lion (n)
+1.
+lip (n)
+1.
+liquid (a)
+1.
+list (n)
+1.
+listen (v)
+1.
+literacy (n)
+1.
+literary (a)
+1.
+literature (n)
+1.
+litigation (n)
+1.
+live (a)
+1.
+lively (a)
+1.
+liver (n)
+1.
+load (n)
+1.
+loan (n)
+1.
+lobby (n)
+1.
+locate (v)
+1.
+location (n)
+1.
+lock (n)
+1.
+lodge (v)
+1.
+log (n)
+1.
+logic (n)
+1.
+logical (a)
+1.
+lonely (a)
+1.
+long (a)
+1.
+look (n)
+1.
+loop (n)
+1.
+loose (a)
+1.
+loot (n)
+1.
+looting (n)
+1.
+lose (v)
+1.
+loss (n)
+1.
+lost (a)
+1.
+lot (n)
+1.
+loud (a)
+1.
+lounge (n)
+1.
+love (n)
+1.
+lover (n)
+1.
+low (a)
+1.
+loyal (a)
+1.
+loyalty (n)
+1.
+lucky (a)
+1.
+lump (n)
+1.
+lunch (n)
+1.
+lung (n)
+1.
+machine (n)
+1.
+machinery (n)
+1.
+magazine (n)
+1.
+magnetic (a)
+1.
+magnitude (n)
+1.
+maid (n)
+1.
+mail (n)
+1.
+mail carrier (n)
+1.
+main (a)
+1.
+mainstream (n)
+1.
+major (a)
+1.
+majority (n)
+1.
+make (v)
+1.
+makeup (n)
+1.
+man (n)
+1.
+manage (v)
+1.
+management (n)
+1.
+manager (n)
+1.
+manner (n)
+1.
+manual (a)
+1.
+manufacture (n)
+1.
+manufacturer (n)
+1.
+manuscript (n)
+1.
+map (n)
+1.
+marathon (n)
+1.
+marble (n)
+1.
+march (n)
+1.
+margin (n)
+1.
+marine (a)
+1.
+mark (n)
+1.
+market (n)
+1.
+marketing (n)
+1.
+marriage (n)
+1.
+married (a)
+1.
+marsh (n)
+1.
+mask (n)
+1.
+mass (n)
+1.
+master (n)
+1.
+mastermind (v)
+1.
+match (n)
+1.
+material (n)
+1.
+mathematical (a)
+1.
+mathematics (n)
+1.
+matrix (n)
+1.
+matter (n)
+1.
+mature (a)
+1.
+maximum (a)
+1.
+mayor (n)
+1.
+maze (n)
+1.
+meadow (n)
+1.
+meal (n)
+1.
+mean (v)
+1.
+meaning (n)
+1.
+meaningful (a)
+1.
+means (n)
+1.
+measure (n)
+1.
+meat (n)
+1.
+mechanical (a)
+1.
+mechanism (n)
+1.
+medal (n)
+1.
+medicine (n)
+1.
+medieval (a)
+1.
+medium (n)
+1.
+meet (v)
+1.
+meeting (n)
+1.
+member (n)
+1.
+membership (n)
+1.
+memorable (a)
+1.
+memorandum (n)
+1.
+memorial (n)
+1.
+memory (n)
+1.
+mental (a)
+1.
+mention (v)
+1.
+menu (n)
+1.
+merchant (n)
+1.
+mercy (n)
+1.
+merit (n)
+1.
+mess (n)
+1.
+message (n)
+1.
+metal (n)
+1.
+method (n)
+1.
+methodology (n)
+1.
+microphone (n)
+1.
+middle (n)
+1.
+middle-class (a)
+1.
+midnight (n)
+1.
+migration (n)
+1.
+mild (a)
+1.
+mile (n)
+1.
+military (a)
+1.
+milk (n)
+1.
+mill (n)
+1.
+mind (n)
+1.
+mine (n)
+1.
+miner (n)
+1.
+mineral (n)
+1.
+minimize (v)
+1.
+minimum (a)
+1.
+minister (n)
+1.
+ministry (n)
+1.
+minor (a)
+1.
+minority (n)
+1.
+minute (n)
+1.
+miracle (n)
+1.
+mirror (n)
+1.
+miscarriage (n)
+1.
+miserable (a)
+1.
+misery (n)
+1.
+mislead (v)
+1.
+misplace (v)
+1.
+miss (v)
+1.
+missile (n)
+1.
+mist (n)
+1.
+mistreat (v)
+1.
+mix (v)
+1.
+mixture (n)
+1.
+mobile (a)
+1.
+model (n)
+1.
+modern (a)
+1.
+modernize (v)
+1.
+modest (a)
+1.
+module (n)
+1.
+mold (n)
+1.
+mole (n)
+1.
+molecular (a)
+1.
+molecule (n)
+1.
+moment (n)
+1.
+momentum (n)
+1.
+monarch (n)
+1.
+monarchy (n)
+1.
+monastery (n)
+1.
+money (n)
+1.
+monk (n)
+1.
+monkey (n)
+1.
+monopoly (n)
+1.
+monster (n)
+1.
+monstrous (a)
+1.
+month (n)
+1.
+monthly (a)
+1.
+mood (n)
+1.
+moon (n)
+1.
+moral (a)
+1.
+morale (n)
+1.
+morning (n)
+1.
+morsel (n)
+1.
+mortgage (n)
+1.
+mosaic (n)
+1.
+mosque (n)
+1.
+mosquito (n)
+1.
+mother (n)
+1.
+motif (n)
+1.
+motivation (n)
+1.
+motorcycle (n)
+1.
+motorist (n)
+1.
+mountain (n)
+1.
+mourning (n)
+1.
+mouse (n)
+1.
+mouth (n)
+1.
+move (n)
+1.
+movement (n)
+1.
+movie (n)
+1.
+moving (a)
+1.
+mud (n)
+1.
+mug (n)
+1.
+muggy (a)
+1.
+multimedia (n)
+1.
+multiple (a)
+1.
+multiply (v)
+1.
+municipal (a)
+1.
+murder (n)
+1.
+muscle (n)
+1.
+museum (n)
+1.
+mushroom (n)
+1.
+music (n)
+1.
+musical (a)
+1.
+musician (n)
+1.
+mutation (n)
+1.
+mutter (v)
+1.
+mutual (a)
+1.
+mystery (n)
+1.
+myth (n)
+1.
+nail (n)
+1.
+name (n)
+1.
+nap (v)
+1.
+narrow (a)
+1.
+national (a)
+1.
+nationalism (n)
+1.
+nationalist (n)
+1.
+nationality (n)
+1.
+native (a)
+1.
+nature (n)
+1.
+navy (n)
+1.
+necessary (a)
+1.
+neck (n)
+1.
+necklace (n)
+1.
+need (n)
+1.
+needle (n)
+1.
+negative (a)
+1.
+neglect (n)
+1.
+negligence (n)
+1.
+negotiation (n)
+1.
+neighborhood (n)
+1.
+neighbour (n)
+1.
+nephew (n)
+1.
+nerve (n)
+1.
+nervous (a)
+1.
+nest (n)
+1.
+net (n)
+1.
+network (n)
+1.
+neutral (a)
+1.
+new (a)
+1.
+newcomer (n)
+1.
+news (n)
+1.
+nice (a)
+1.
+night (n)
+1.
+nightmare (n)
+1.
+noble (a)
+1.
+nod (v)
+1.
+node (n)
+1.
+noise (n)
+1.
+noisy (a)
+1.
+nominate (v)
+1.
+nomination (n)
+1.
+nonremittal (n)
+1.
+nonsense (n)
+1.
+norm (n)
+1.
+normal (a)
+1.
+north (n)
+1.
+nose (n)
+1.
+note (n)
+1.
+notebook (n)
+1.
+notice (n)
+1.
+notion (n)
+1.
+notorious (a)
+1.
+noun (n)
+1.
+novel (n)
+1.
+nuance (n)
+1.
+nuclear (a)
+1.
+number (n)
+1.
+nun (n)
+1.
+nurse (n)
+1.
+nursery (n)
+1.
+nut (n)
+1.
+oak (n)
+1.
+obese (a)
+1.
+obey (v)
+1.
+object (n)
+1.
+objection (n)
+1.
+objective (a)
+1.
+obligation (n)
+1.
+obscure (a)
+1.
+observation (n)
+1.
+observer (n)
+1.
+obstacle (n)
+1.
+obtain (v)
+1.
+obvious (a)
+1.
+occasion (n)
+1.
+occupation (n)
+1.
+occupational (a)
+1.
+occupy (v)
+1.
+ocean (n)
+1.
+odd (a)
+1.
+offend (v)
+1.
+offender (n)
+1.
+offense (n)
+1.
+offensive (a)
+1.
+offer (n)
+1.
+office (n)
+1.
+officer (n)
+1.
+official (a)
+1.
+offset (v)
+1.
+offspring (n)
+1.
+oil (n)
+1.
+old (a)
+1.
+old age (n)
+1.
+omission (n)
+1.
+onion (n)
+1.
+open (a)
+1.
+opera (n)
+1.
+operation (n)
+1.
+operational (a)
+1.
+opinion (n)
+1.
+opponent (n)
+1.
+oppose (v)
+1.
+opposed (a)
+1.
+opposite (n)
+1.
+opposition (n)
+1.
+optimism (n)
+1.
+optimistic (a)
+1.
+option (n)
+1.
+optional (a)
+1.
+oral (a)
+1.
+orange (n)
+1.
+orbit (n)
+1.
+orchestra (n)
+1.
+order (n)
+1.
+ordinary (a)
+1.
+organ (n)
+1.
+organic (a)
+1.
+organisation (n)
+1.
+organize (v)
+1.
+orgy (n)
+1.
+orientation (n)
+1.
+origin (n)
+1.
+original (a)
+1.
+orthodox (a)
+1.
+ostracize (v)
+1.
+other (a)
+1.
+outer (a)
+1.
+outfit (n)
+1.
+outlet (n)
+1.
+outline (n)
+1.
+outlook (n)
+1.
+output (n)
+1.
+outside (a)
+1.
+oven (n)
+1.
+overall (n)
+1.
+overcharge (v)
+1.
+overeat (v)
+1.
+overlook (v)
+1.
+overview (n)
+1.
+overwhelm (v)
+1.
+owe (v)
+1.
+owl (n)
+1.
+owner (n)
+1.
+ownership (n)
+1.
+oxygen (n)
+1.
+pace (n)
+1.
+pack (n)
+1.
+package (n)
+1.
+packet (n)
+1.
+page (n)
+1.
+pain (n)
+1.
+painful (a)
+1.
+paint (n)
+1.
+painter (n)
+1.
+pair (n)
+1.
+palace (n)
+1.
+palm (n)
+1.
+pan (n)
+1.
+panel (n)
+1.
+panic (n)
+1.
+paper (n)
+1.
+parachute (v)
+1.
+parade (n)
+1.
+paradox (n)
+1.
+paragraph (n)
+1.
+parallel (a)
+1.
+paralyzed (a)
+1.
+parameter (n)
+1.
+pardon (n)
+1.
+parent (n)
+1.
+parental (a)
+1.
+park (n)
+1.
+parking (n)
+1.
+parliament (n)
+1.
+part (n)
+1.
+part-time (a)
+1.
+participant (n)
+1.
+participate (v)
+1.
+particle (n)
+1.
+particular (a)
+1.
+partner (n)
+1.
+partnership (n)
+1.
+party (n)
+1.
+pass (n)
+1.
+passage (n)
+1.
+passenger (n)
+1.
+passion (n)
+1.
+passionate (a)
+1.
+passive (a)
+1.
+passport (n)
+1.
+password (n)
+1.
+past (a)
+1.
+pastel (n)
+1.
+pasture (n)
+1.
+pat (v)
+1.
+patch (n)
+1.
+patent (n)
+1.
+path (n)
+1.
+patience (n)
+1.
+patient (a)
+1.
+patrol (n)
+1.
+pattern (n)
+1.
+pause (n)
+1.
+pavement (n)
+1.
+pawn (v)
+1.
+pay (v)
+1.
+payment (n)
+1.
+peace (n)
+1.
+peaceful (a)
+1.
+peak (n)
+1.
+peanut (n)
+1.
+peasant (n)
+1.
+pedestrian (n)
+1.
+peel (n)
+1.
+pen (n)
+1.
+penalty (n)
+1.
+pencil (n)
+1.
+penetrate (v)
+1.
+penny (n)
+1.
+pension (n)
+1.
+people (n)
+1.
+pepper (n)
+1.
+perceive (v)
+1.
+percent (n)
+1.
+perception (n)
+1.
+perfect (a)
+1.
+perforate (v)
+1.
+perform (v)
+1.
+performance (n)
+1.
+performer (n)
+1.
+perfume (n)
+1.
+period (n)
+1.
+permanent (a)
+1.
+permission (n)
+1.
+persist (v)
+1.
+persistent (a)
+1.
+person (n)
+1.
+personal (a)
+1.
+personality (n)
+1.
+persuade (v)
+1.
+pest (n)
+1.
+pet (n)
+1.
+petty (a)
+1.
+phenomenon (n)
+1.
+philosopher (n)
+1.
+philosophical (a)
+1.
+philosophy (n)
+1.
+photocopy (v)
+1.
+photograph (n)
+1.
+photographer (n)
+1.
+photography (n)
+1.
+physical (a)
+1.
+physics (n)
+1.
+piano (n)
+1.
+pick (v)
+1.
+picture (n)
+1.
+pie (n)
+1.
+piece (n)
+1.
+pier (n)
+1.
+pierce (v)
+1.
+pig (n)
+1.
+pigeon (n)
+1.
+pile (n)
+1.
+pill (n)
+1.
+pillow (n)
+1.
+pilot (n)
+1.
+pin (n)
+1.
+pioneer (n)
+1.
+pipe (n)
+1.
+pit (n)
+1.
+pitch (n)
+1.
+pity (n)
+1.
+place (n)
+1.
+plagiarize (v)
+1.
+plain (a)
+1.
+plaintiff (n)
+1.
+plan (n)
+1.
+plane (n)
+1.
+planet (n)
+1.
+plant (n)
+1.
+plaster (n)
+1.
+plastic (n)
+1.
+plate (n)
+1.
+platform (n)
+1.
+play (n)
+1.
+player (n)
+1.
+plead (v)
+1.
+pleasant (a)
+1.
+please (v)
+1.
+pleasure (n)
+1.
+pledge (v)
+1.
+plot (n)
+1.
+pluck (v)
+1.
+plug (v)
+1.
+pneumonia (n)
+1.
+pocket (n)
+1.
+poem (n)
+1.
+poetry (n)
+1.
+point (n)
+1.
+poison (n)
+1.
+pole (n)
+1.
+policeman (n)
+1.
+policy (n)
+1.
+polish (v)
+1.
+polite (a)
+1.
+political (a)
+1.
+politician (n)
+1.
+politics (n)
+1.
+poll (n)
+1.
+pollution (n)
+1.
+pony (n)
+1.
+pool (n)
+1.
+poor (a)
+1.
+pop (n)
+1.
+popular (a)
+1.
+population (n)
+1.
+portable (a)
+1.
+porter (n)
+1.
+portion (n)
+1.
+portrait (n)
+1.
+position (n)
+1.
+positive (a)
+1.
+possession (n)
+1.
+possibility (n)
+1.
+possible (a)
+1.
+post (n)
+1.
+postcard (n)
+1.
+postpone (v)
+1.
+posture (n)
+1.
+pot (n)
+1.
+potato (n)
+1.
+potential (n)
+1.
+pottery (n)
+1.
+pound (n)
+1.
+pour (v)
+1.
+powder (n)
+1.
+power (n)
+1.
+powerful (a)
+1.
+practical (a)
+1.
+practice (n)
+1.
+praise (n)
+1.
+pray (v)
+1.
+prayer (n)
+1.
+preach (v)
+1.
+precede (v)
+1.
+precedent (n)
+1.
+precise (a)
+1.
+precision (n)
+1.
+predator (n)
+1.
+predecessor (n)
+1.
+predict (v)
+1.
+predictable (a)
+1.
+prediction (n)
+1.
+prefer (v)
+1.
+preference (n)
+1.
+pregnant (a)
+1.
+prejudice (n)
+1.
+premature (a)
+1.
+premium (n)
+1.
+preoccupation (n)
+1.
+preparation (n)
+1.
+prescription (n)
+1.
+presence (n)
+1.
+present (a)
+1.
+presentation (n)
+1.
+preservation (n)
+1.
+presidency (n)
+1.
+president (n)
+1.
+presidential (a)
+1.
+press (n)
+1.
+pressure (n)
+1.
+prestige (n)
+1.
+prevalence (n)
+1.
+prevent (v)
+1.
+prey (n)
+1.
+price (n)
+1.
+pride (n)
+1.
+primary (a)
+1.
+prince (n)
+1.
+princess (n)
+1.
+principle (n)
+1.
+print (n)
+1.
+printer (n)
+1.
+priority (n)
+1.
+prison (n)
+1.
+prisoner (n)
+1.
+privacy (n)
+1.
+private (a)
+1.
+privilege (n)
+1.
+privileged (a)
+1.
+prize (n)
+1.
+probability (n)
+1.
+problem (n)
+1.
+procedure (n)
+1.
+process (n)
+1.
+proclaim (v)
+1.
+produce (n)
+1.
+producer (n)
+1.
+product (n)
+1.
+production (n)
+1.
+productive (a)
+1.
+profession (n)
+1.
+professional (a)
+1.
+professor (n)
+1.
+profile (n)
+1.
+profit (n)
+1.
+profound (a)
+1.
+program (n)
+1.
+progress (n)
+1.
+progressive (a)
+1.
+project (n)
+1.
+projection (n)
+1.
+prolonged (a)
+1.
+promise (n)
+1.
+promote (v)
+1.
+promotion (n)
+1.
+proof (n)
+1.
+propaganda (n)
+1.
+proper (a)
+1.
+property (n)
+1.
+proportion (n)
+1.
+proportional (a)
+1.
+proposal (n)
+1.
+proposition (n)
+1.
+prosecute (v)
+1.
+prosecution (n)
+1.
+prospect (n)
+1.
+prosper (v)
+1.
+prosperity (n)
+1.
+protect (v)
+1.
+protection (n)
+1.
+protein (n)
+1.
+protest (n)
+1.
+proud (a)
+1.
+prove (v)
+1.
+provide (v)
+1.
+provincial (a)
+1.
+provision (n)
+1.
+provoke (v)
+1.
+psychologist (n)
+1.
+psychology (n)
+1.
+public (a)
+1.
+publication (n)
+1.
+publicity (n)
+1.
+publish (v)
+1.
+publisher (n)
+1.
+pudding (n)
+1.
+pull (v)
+1.
+pump (n)
+1.
+pumpkin (n)
+1.
+punch (n)
+1.
+punish (v)
+1.
+pupil (n)
+1.
+pure (a)
+1.
+purpose (n)
+1.
+pursuit (n)
+1.
+push (v)
+1.
+put (v)
+1.
+puzzle (n)
+1.
+pyramid (n)
+1.
+qualification (n)
+1.
+qualified (a)
+1.
+qualify (v)
+1.
+quality (n)
+1.
+quantitative (a)
+1.
+quantity (n)
+1.
+quarrel (n)
+1.
+quarter (n)
+1.
+queen (n)
+1.
+quest (n)
+1.
+question (n)
+1.
+questionnaire (n)
+1.
+queue (n)
+1.
+quiet (a)
+1.
+quit (v)
+1.
+quota (n)
+1.
+quotation (n)
+1.
+quote (v)
+1.
+rabbit (n)
+1.
+race (n)
+1.
+racial (a)
+1.
+racism (n)
+1.
+rack (n)
+1.
+radiation (n)
+1.
+radiation sickness (n)
+1.
+radical (n)
+1.
+radio (n)
+1.
+rage (n)
+1.
+raid (n)
+1.
+railcar (n)
+1.
+railroad (n)
+1.
+rain (n)
+1.
+rainbow (n)
+1.
+raise (v)
+1.
+rally (n)
+1.
+ranch (n)
+1.
+random (a)
+1.
+range (n)
+1.
+rank (n)
+1.
+rape (n)
+1.
+rare (a)
+1.
+rat (n)
+1.
+rate (n)
+1.
+ratio (n)
+1.
+rational (a)
+1.
+raw (a)
+1.
+reach (v)
+1.
+reaction (n)
+1.
+reactor (n)
+1.
+read (v)
+1.
+reader (n)
+1.
+ready (a)
+1.
+real (a)
+1.
+realism (n)
+1.
+realistic (a)
+1.
+reality (n)
+1.
+realize (v)
+1.
+rear (v)
+1.
+reason (n)
+1.
+reasonable (a)
+1.
+rebel (n)
+1.
+rebellion (n)
+1.
+receipt (n)
+1.
+reception (n)
+1.
+recession (n)
+1.
+reckless (a)
+1.
+recognition (n)
+1.
+recognize (v)
+1.
+recommend (v)
+1.
+recommendation (n)
+1.
+reconcile (v)
+1.
+record (n)
+1.
+recording (n)
+1.
+recover (v)
+1.
+recovery (n)
+1.
+recreation (n)
+1.
+recruit (v)
+1.
+recycle (v)
+1.
+red (n)
+1.
+redeem (v)
+1.
+reduce (v)
+1.
+reduction (n)
+1.
+redundancy (n)
+1.
+refer (v)
+1.
+referee (n)
+1.
+reference (n)
+1.
+referral (n)
+1.
+reflect (v)
+1.
+reflection (n)
+1.
+reform (n)
+1.
+refrigerator (n)
+1.
+refugee (n)
+1.
+refund (v)
+1.
+refusal (n)
+1.
+refuse (v)
+1.
+regard (n)
+1.
+region (n)
+1.
+regional (a)
+1.
+register (n)
+1.
+registration (n)
+1.
+regret (n)
+1.
+regular (a)
+1.
+regulation (n)
+1.
+rehabilitation (n)
+1.
+rehearsal (n)
+1.
+reign (n)
+1.
+reinforce (v)
+1.
+reject (v)
+1.
+rejection (n)
+1.
+relate (v)
+1.
+related (a)
+1.
+relation (n)
+1.
+relationship (n)
+1.
+relative (a)
+1.
+relax (v)
+1.
+relaxation (n)
+1.
+release (n)
+1.
+relevance (n)
+1.
+relevant (a)
+1.
+reliable (a)
+1.
+reliance (n)
+1.
+relief (n)
+1.
+relieve (v)
+1.
+religious (a)
+1.
+relinquish (v)
+1.
+reluctance (n)
+1.
+remain (v)
+1.
+remark (n)
+1.
+remedy (n)
+1.
+remember (v)
+1.
+remind (v)
+1.
+remunerate (v)
+1.
+rent (n)
+1.
+repeat (v)
+1.
+repetition (n)
+1.
+replace (v)
+1.
+replacement (n)
+1.
+report (n)
+1.
+reporter (n)
+1.
+represent (v)
+1.
+representative (a)
+1.
+reproduce (v)
+1.
+reproduction (n)
+1.
+reptile (n)
+1.
+republic (n)
+1.
+reputation (n)
+1.
+request (n)
+1.
+requirement (n)
+1.
+rescue (v)
+1.
+research (n)
+1.
+researcher (n)
+1.
+resemble (v)
+1.
+resent (v)
+1.
+reserve (n)
+1.
+reservoir (n)
+1.
+residence (n)
+1.
+resident (a)
+1.
+residential (a)
+1.
+resign (v)
+1.
+resignation (n)
+1.
+resist (v)
+1.
+resolution (n)
+1.
+resort (n)
+1.
+resource (n)
+1.
+respect (v)
+1.
+respectable (a)
+1.
+response (n)
+1.
+responsibility (n)
+1.
+responsible (a)
+1.
+rest (n)
+1.
+restaurant (n)
+1.
+restless (a)
+1.
+restoration (n)
+1.
+restrain (v)
+1.
+restraint (n)
+1.
+restrict (v)
+1.
+restricted (a)
+1.
+restriction (n)
+1.
+result (n)
+1.
+retailer (n)
+1.
+retain (v)
+1.
+retire (v)
+1.
+retired (a)
+1.
+retiree (n)
+1.
+retirement (n)
+1.
+retreat (n)
+1.
+return (n)
+1.
+reveal (v)
+1.
+revenge (n)
+1.
+reverse (n)
+1.
+review (n)
+1.
+revise (v)
+1.
+revival (n)
+1.
+revive (v)
+1.
+revoke (v)
+1.
+revolution (n)
+1.
+revolutionary (a)
+1.
+reward (n)
+1.
+rhetoric (n)
+1.
+rhythm (n)
+1.
+rib (n)
+1.
+ribbon (n)
+1.
+rice (n)
+1.
+rich (a)
+1.
+ride (v)
+1.
+rider (n)
+1.
+ridge (n)
+1.
+rifle (n)
+1.
+right (a)
+1.
+right wing (n)
+1.
+ring (n)
+1.
+riot (n)
+1.
+rise (n)
+1.
+risk (n)
+1.
+ritual (n)
+1.
+river (n)
+1.
+road (n)
+1.
+roar (v)
+1.
+rob (v)
+1.
+robbery (n)
+1.
+robot (n)
+1.
+rock (n)
+1.
+rocket (n)
+1.
+role (n)
+1.
+roll (n)
+1.
+romantic (a)
+1.
+roof (n)
+1.
+room (n)
+1.
+root (n)
+1.
+rope (n)
+1.
+rose (n)
+1.
+rotate (v)
+1.
+rotation (n)
+1.
+rotten (a)
+1.
+rough (a)
+1.
+round (a)
+1.
+route (n)
+1.
+routine (n)
+1.
+row (n)
+1.
+royalty (n)
+1.
+rub (v)
+1.
+rubbish (n)
+1.
+rugby (n)
+1.
+ruin (n)
+1.
+rule (n)
+1.
+rumor (n)
+1.
+run (v)
+1.
+rung (n)
+1.
+runner (n)
+1.
+rural (a)
+1.
+rush (n)
+1.
+sacred (a)
+1.
+sacrifice (n)
+1.
+sad (a)
+1.
+safari (n)
+1.
+safe (a)
+1.
+safety (n)
+1.
+sail (n)
+1.
+sailor (n)
+1.
+salad (n)
+1.
+sale (n)
+1.
+salesperson (n)
+1.
+salmon (n)
+1.
+salon (n)
+1.
+salt (n)
+1.
+salvation (n)
+1.
+sample (n)
+1.
+sanctuary (n)
+1.
+sand (n)
+1.
+sandal (n)
+1.
+sandwich (n)
+1.
+satellite (n)
+1.
+satisfaction (n)
+1.
+satisfactory (a)
+1.
+satisfied (a)
+1.
+sauce (n)
+1.
+sausage (n)
+1.
+save (v)
+1.
+say (v)
+1.
+scale (n)
+1.
+scan (v)
+1.
+scandal (n)
+1.
+scatter (v)
+1.
+scenario (n)
+1.
+scene (n)
+1.
+schedule (n)
+1.
+scheme (n)
+1.
+scholar (n)
+1.
+scholarship (n)
+1.
+school (n)
+1.
+science (n)
+1.
+scientific (a)
+1.
+scientist (n)
+1.
+score (n)
+1.
+scramble (v)
+1.
+scrap (n)
+1.
+scrape (v)
+1.
+scratch (v)
+1.
+scream (v)
+1.
+screen (n)
+1.
+screw (n)
+1.
+script (n)
+1.
+sculpture (n)
+1.
+sea (n)
+1.
+seal (n)
+1.
+search (n)
+1.
+season (n)
+1.
+seasonal (a)
+1.
+seat (n)
+1.
+second (n)
+1.
+secondary (a)
+1.
+secret (n)
+1.
+secretary (n)
+1.
+secretion (n)
+1.
+section (n)
+1.
+sector (n)
+1.
+secular (a)
+1.
+secure (a)
+1.
+security (n)
+1.
+see (v)
+1.
+seed (n)
+1.
+seek (v)
+1.
+seem (v)
+1.
+seize (v)
+1.
+selection (n)
+1.
+self (n)
+1.
+sell (v)
+1.
+seller (n)
+1.
+seminar (n)
+1.
+senior (a)
+1.
+sensation (n)
+1.
+sense (n)
+1.
+sensitive (a)
+1.
+sensitivity (n)
+1.
+sentence (n)
+1.
+sentiment (n)
+1.
+separate (a)
+1.
+separation (n)
+1.
+sequence (n)
+1.
+series (n)
+1.
+serious (a)
+1.
+sermon (n)
+1.
+servant (n)
+1.
+serve (v)
+1.
+service (n)
+1.
+session (n)
+1.
+set (n)
+1.
+settle (v)
+1.
+settlement (n)
+1.
+sex (n)
+1.
+sexual (a)
+1.
+shadow (n)
+1.
+shaft (n)
+1.
+shake (v)
+1.
+shallow (a)
+1.
+shame (n)
+1.
+shape (v)
+1.
+share (n)
+1.
+shareholder (n)
+1.
+shark (n)
+1.
+sharp (a)
+1.
+shatter (v)
+1.
+shave (v)
+1.
+shed (v)
+1.
+sheep (n)
+1.
+sheet (n)
+1.
+shelf (n)
+1.
+shell (n)
+1.
+shelter (n)
+1.
+shield (n)
+1.
+shift (n)
+1.
+shine (v)
+1.
+shirt (n)
+1.
+shiver (v)
+1.
+shock (n)
+1.
+shoe (n)
+1.
+shoot (v)
+1.
+shop (n)
+1.
+shopping (n)
+1.
+short (a)
+1.
+short circuit (n)
+1.
+shortage (n)
+1.
+shorts (n)
+1.
+shot (n)
+1.
+shoulder (n)
+1.
+shout (v)
+1.
+show (n)
+1.
+shower (n)
+1.
+shrink (v)
+1.
+shrug (v)
+1.
+shy (a)
+1.
+sick (a)
+1.
+sickness (n)
+1.
+side (n)
+1.
+siege (n)
+1.
+sieve (n)
+1.
+sigh (v)
+1.
+sight (n)
+1.
+sightsee (v)
+1.
+sign (n)
+1.
+signature (n)
+1.
+silence (n)
+1.
+silk (n)
+1.
+silver (n)
+1.
+similar (a)
+1.
+similarity (n)
+1.
+simplicity (n)
+1.
+sin (n)
+1.
+sing (v)
+1.
+singer (n)
+1.
+single (a)
+1.
+sink (n)
+1.
+sip (v)
+1.
+sister (n)
+1.
+sit (v)
+1.
+site (n)
+1.
+situation (n)
+1.
+size (n)
+1.
+skate (v)
+1.
+skeleton (n)
+1.
+sketch (n)
+1.
+ski (n)
+1.
+skill (n)
+1.
+skilled (a)
+1.
+skin (n)
+1.
+skip (v)
+1.
+skirt (n)
+1.
+skull (n)
+1.
+sky (n)
+1.
+slab (n)
+1.
+slam (v)
+1.
+slant (n)
+1.
+slap (v)
+1.
+slave (n)
+1.
+sleep (n)
+1.
+sleeve (n)
+1.
+slice (n)
+1.
+slide (n)
+1.
+slime (n)
+1.
+slip (v)
+1.
+slippery (a)
+1.
+slogan (n)
+1.
+slot (n)
+1.
+slow (a)
+1.
+slump (v)
+1.
+small (a)
+1.
+smart (a)
+1.
+smash (v)
+1.
+smell (n)
+1.
+smile (n)
+1.
+smoke (n)
+1.
+smooth (a)
+1.
+snack (n)
+1.
+snail (n)
+1.
+snake (n)
+1.
+snap (v)
+1.
+snarl (v)
+1.
+snatch (v)
+1.
+sniff (v)
+1.
+snow (n)
+1.
+snub (n)
+1.
+snuggle (v)
+1.
+soak (v)
+1.
+soap (n)
+1.
+soar (v)
+1.
+soccer (n)
+1.
+social (a)
+1.
+socialist (a)
+1.
+society (n)
+1.
+sociology (n)
+1.
+sock (n)
+1.
+sodium (n)
+1.
+sofa (n)
+1.
+soft (a)
+1.
+software (n)
+1.
+soil (n)
+1.
+solar (a)
+1.
+soldier (n)
+1.
+solid (a)
+1.
+solidarity (n)
+1.
+solo (n)
+1.
+solution (n)
+1.
+solve (v)
+1.
+sophisticated (a)
+1.
+soprano (n)
+1.
+soul (n)
+1.
+sound (a)
+1.
+soup (n)
+1.
+sour (a)
+1.
+source (n)
+1.
+south (n)
+1.
+sow (v)
+1.
+space (n)
+1.
+spare (v)
+1.
+spatial (a)
+1.
+speaker (n)
+1.
+specialist (n)
+1.
+species (n)
+1.
+specified (a)
+1.
+specimen (n)
+1.
+spectrum (n)
+1.
+speculate (v)
+1.
+speech (n)
+1.
+speed (n)
+1.
+spell (n)
+1.
+spend (v)
+1.
+sphere (n)
+1.
+spider (n)
+1.
+spill (v)
+1.
+spin (v)
+1.
+spinach (n)
+1.
+spine (n)
+1.
+spirit (n)
+1.
+spit (v)
+1.
+spite (n)
+1.
+split (n)
+1.
+splurge (v)
+1.
+spoil (v)
+1.
+spokesman (n)
+1.
+spokesperson (n)
+1.
+spontaneous (a)
+1.
+spoon (n)
+1.
+sport (n)
+1.
+spot (n)
+1.
+spray (n)
+1.
+spread (n)
+1.
+spring (n)
+1.
+spy (n)
+1.
+squad (n)
+1.
+square (a)
+1.
+squash (v)
+1.
+squeeze (v)
+1.
+stab (v)
+1.
+stable (a)
+1.
+stadium (n)
+1.
+staff (n)
+1.
+stage (n)
+1.
+stain (v)
+1.
+staircase (n)
+1.
+stake (n)
+1.
+stall (n)
+1.
+stamp (n)
+1.
+stand (n)
+1.
+standard (a)
+1.
+star (n)
+1.
+stare (v)
+1.
+start (n)
+1.
+state (n)
+1.
+statement (n)
+1.
+station (n)
+1.
+statistical (a)
+1.
+statistics (n)
+1.
+statue (n)
+1.
+stay (v)
+1.
+steady (a)
+1.
+steak (n)
+1.
+steam (n)
+1.
+steel (n)
+1.
+steep (a)
+1.
+stem (n)
+1.
+step (n)
+1.
+stereotype (v)
+1.
+steward (n)
+1.
+stick (n)
+1.
+sticky (a)
+1.
+still (a)
+1.
+stimulation (n)
+1.
+sting (v)
+1.
+stir (v)
+1.
+stitch (n)
+1.
+stock (n)
+1.
+stomach (n)
+1.
+stone (n)
+1.
+stool (n)
+1.
+stop (n)
+1.
+storage (n)
+1.
+store (v)
+1.
+storm (n)
+1.
+story (n)
+1.
+straight (a)
+1.
+straighten (v)
+1.
+strain (v)
+1.
+strange (a)
+1.
+strap (n)
+1.
+strategic (a)
+1.
+straw (n)
+1.
+strawberry (n)
+1.
+stream (n)
+1.
+street (n)
+1.
+strength (n)
+1.
+stress (n)
+1.
+stretch (v)
+1.
+strict (a)
+1.
+stride (v)
+1.
+strike (n)
+1.
+strikebreaker (n)
+1.
+string (n)
+1.
+strip (n)
+1.
+stroke (n)
+1.
+stroll (v)
+1.
+strong (a)
+1.
+structural (a)
+1.
+structure (n)
+1.
+struggle (n)
+1.
+stubborn (a)
+1.
+student (n)
+1.
+studio (n)
+1.
+study (n)
+1.
+stuff (v)
+1.
+stumble (v)
+1.
+stun (v)
+1.
+stunning (a)
+1.
+stupid (a)
+1.
+style (n)
+1.
+subject (n)
+1.
+subjective (a)
+1.
+subsequent (a)
+1.
+substance (n)
+1.
+substitute (v)
+1.
+suburb (n)
+1.
+subway (n)
+1.
+success (n)
+1.
+successful (a)
+1.
+sudden (a)
+1.
+suffer (v)
+1.
+suffering (n)
+1.
+sufficient (a)
+1.
+sugar (n)
+1.
+suggest (v)
+1.
+suggestion (n)
+1.
+suicide (n)
+1.
+suit (n)
+1.
+suitcase (n)
+1.
+suite (n)
+1.
+sulphur (n)
+1.
+sum (n)
+1.
+summary (n)
+1.
+summer (n)
+1.
+summit (n)
+1.
+sun (n)
+1.
+sunrise (n)
+1.
+sunshine (n)
+1.
+suntan (n)
+1.
+superintendent (n)
+1.
+superior (a)
+1.
+supermarket (n)
+1.
+supervisor (n)
+1.
+supplementary (a)
+1.
+supply (n)
+1.
+support (n)
+1.
+suppress (v)
+1.
+surface (n)
+1.
+surgeon (n)
+1.
+surgery (n)
+1.
+surprise (n)
+1.
+surprised (a)
+1.
+surprising (a)
+1.
+surround (v)
+1.
+survey (n)
+1.
+survival (n)
+1.
+survivor (n)
+1.
+suspect (n)
+1.
+suspicion (n)
+1.
+sustain (v)
+1.
+swallow (v)
+1.
+swarm (v)
+1.
+swear (v)
+1.
+sweat (n)
+1.
+sweater (n)
+1.
+sweep (v)
+1.
+sweet (a)
+1.
+swell (v)
+1.
+swim (v)
+1.
+swing (n)
+1.
+swipe (v)
+1.
+switch (n)
+1.
+swop (v)
+1.
+sword (n)
+1.
+syllable (n)
+1.
+symbol (n)
+1.
+symmetry (n)
+1.
+sympathetic (a)
+1.
+symptom (n)
+1.
+syndrome (n)
+1.
+system (n)
+1.
+systematic (a)
+1.
+t-shirt (n)
+1.
+table (n)
+1.
+tablet (n)
+1.
+tactic (n)
+1.
+tail (n)
+1.
+take (v)
+1.
+talented (a)
+1.
+talk (n)
+1.
+talkative (a)
+1.
+tall (a)
+1.
+tank (n)
+1.
+tap (n)
+1.
+tape (n)
+1.
+target (n)
+1.
+taste (n)
+1.
+tasty (a)
+1.
+tax (n)
+1.
+taxi (n)
+1.
+taxpayer (n)
+1.
+tea (n)
+1.
+teach (v)
+1.
+teacher (n)
+1.
+team (n)
+1.
+tear (n)
+1.
+tease (v)
+1.
+technical (a)
+1.
+technique (n)
+1.
+technology (n)
+1.
+teenager (n)
+1.
+telephone (n)
+1.
+television (n)
+1.
+tell (v)
+1.
+temperature (n)
+1.
+temple (n)
+1.
+temporary (a)
+1.
+tempt (v)
+1.
+temptation (n)
+1.
+tenant (n)
+1.
+tendency (n)
+1.
+tender (a)
+1.
+tennis (n)
+1.
+tense (a)
+1.
+tension (n)
+1.
+tent (n)
+1.
+term (n)
+1.
+terminal (a)
+1.
+terms (n)
+1.
+terrace (n)
+1.
+terrify (v)
+1.
+terrorist (n)
+1.
+test (n)
+1.
+testify (v)
+1.
+text (n)
+1.
+texture (n)
+1.
+thank (v)
+1.
+thanks (n)
+1.
+thaw (v)
+1.
+theater (n)
+1.
+theft (n)
+1.
+theme (n)
+1.
+theology (n)
+1.
+theorist (n)
+1.
+theory (n)
+1.
+therapist (n)
+1.
+therapy (n)
+1.
+thesis (n)
+1.
+thick (a)
+1.
+thigh (n)
+1.
+thin (a)
+1.
+think (v)
+1.
+thinker (n)
+1.
+thirsty (a)
+1.
+thought (n)
+1.
+thoughtful (a)
+1.
+thread (n)
+1.
+threat (n)
+1.
+threaten (v)
+1.
+threshold (n)
+1.
+throat (n)
+1.
+throne (n)
+1.
+throw (v)
+1.
+thrust (v)
+1.
+thumb (n)
+1.
+tick (v)
+1.
+ticket (n)
+1.
+tide (n)
+1.
+tidy (a)
+1.
+tie (n)
+1.
+tiger (n)
+1.
+tight (a)
+1.
+tile (n)
+1.
+timber (n)
+1.
+time (n)
+1.
+timetable (n)
+1.
+tin (n)
+1.
+tip (n)
+1.
+tiptoe (v)
+1.
+tire (n)
+1.
+tired (a)
+1.
+tissue (n)
+1.
+title (n)
+1.
+toast (n)
+1.
+toe (n)
+1.
+tolerant (a)
+1.
+tolerate (v)
+1.
+toll (n)
+1.
+tomato (n)
+1.
+ton (n)
+1.
+tone (n)
+1.
+tongue (n)
+1.
+tool (n)
+1.
+tooth (n)
+1.
+top (n)
+1.
+topple (v)
+1.
+torch (n)
+1.
+torture (n)
+1.
+toss (v)
+1.
+total (v)
+1.
+touch (n)
+1.
+tough (a)
+1.
+tourism (n)
+1.
+tourist (n)
+1.
+tournament (n)
+1.
+towel (n)
+1.
+tower (n)
+1.
+town (n)
+1.
+toxic (a)
+1.
+toy (n)
+1.
+trace (n)
+1.
+track (n)
+1.
+tract (n)
+1.
+traction (n)
+1.
+trade (n)
+1.
+tradition (n)
+1.
+traditional (a)
+1.
+traffic (n)
+1.
+tragedy (n)
+1.
+trail (v)
+1.
+train (n)
+1.
+trainer (n)
+1.
+training (n)
+1.
+trait (n)
+1.
+trance (n)
+1.
+transaction (n)
+1.
+transfer (n)
+1.
+transform (v)
+1.
+transition (n)
+1.
+translate (v)
+1.
+transmission (n)
+1.
+transparent (a)
+1.
+transport (n)
+1.
+trap (n)
+1.
+tray (n)
+1.
+tread (v)
+1.
+treasure (n)
+1.
+treasurer (n)
+1.
+treat (n)
+1.
+treatment (n)
+1.
+treaty (n)
+1.
+tree (n)
+1.
+tremble (v)
+1.
+trench (n)
+1.
+trend (n)
+1.
+trial (n)
+1.
+triangle (n)
+1.
+tribe (n)
+1.
+tribute (n)
+1.
+trick (n)
+1.
+trip (v)
+1.
+trivial (a)
+1.
+trolley (n)
+1.
+troop (n)
+1.
+tropical (a)
+1.
+trouble (n)
+1.
+trouser (n)
+1.
+truck (n)
+1.
+true (a)
+1.
+trunk (n)
+1.
+trust (n)
+1.
+trustee (n)
+1.
+truth (n)
+1.
+try (v)
+1.
+tube (n)
+1.
+tumble (v)
+1.
+tumour (n)
+1.
+tune (n)
+1.
+tunnel (n)
+1.
+turkey (n)
+1.
+turn (n)
+1.
+twilight (n)
+1.
+twin (n)
+1.
+twist (n)
+1.
+twitch (v)
+1.
+tycoon (n)
+1.
+typical (a)
+1.
+ugly (a)
+1.
+ulcer (n)
+1.
+ultimate (a)
+1.
+umbrella (n)
+1.
+unanimous (a)
+1.
+unaware (a)
+1.
+uncertainty (n)
+1.
+uncle (n)
+1.
+uncomfortable (a)
+1.
+underline (v)
+1.
+undermine (v)
+1.
+understand (v)
+1.
+understanding (n)
+1.
+undertake (v)
+1.
+undress (v)
+1.
+uneasy (a)
+1.
+unemployed (a)
+1.
+unemployment (n)
+1.
+unexpected (a)
+1.
+unfair (a)
+1.
+unfortunate (a)
+1.
+uniform (a)
+1.
+union (n)
+1.
+unique (a)
+1.
+unit (n)
+1.
+unity (n)
+1.
+university (n)
+1.
+unlawful (a)
+1.
+unlike (a)
+1.
+unlikely (a)
+1.
+unpleasant (a)
+1.
+unrest (n)
+1.
+update (v)
+1.
+upset (v)
+1.
+urban (a)
+1.
+urge (n)
+1.
+urgency (n)
+1.
+urine (n)
+1.
+use (n)
+1.
+useful (a)
+1.
+useless (a)
+1.
+user (n)
+1.
+usual (a)
+1.
+utter (v)
+1.
+vacant (a)
+1.
+vacuum (n)
+1.
+vague (a)
+1.
+vain (a)
+1.
+valid (a)
+1.
+valley (n)
+1.
+valuable (a)
+1.
+value (n)
+1.
+van (n)
+1.
+variable (n)
+1.
+variant (n)
+1.
+variation (n)
+1.
+varied (a)
+1.
+variety (n)
+1.
+vat (n)
+1.
+vector (n)
+1.
+vegetable (n)
+1.
+vegetarian (n)
+1.
+vegetation (n)
+1.
+vehicle (n)
+1.
+veil (n)
+1.
+vein (n)
+1.
+velvet (n)
+1.
+venture (n)
+1.
+verbal (a)
+1.
+verdict (n)
+1.
+version (n)
+1.
+vertical (a)
+1.
+vessel (n)
+1.
+veteran (n)
+1.
+viable (a)
+1.
+vicious (a)
+1.
+victim (n)
+1.
+victory (n)
+1.
+video (n)
+1.
+view (n)
+1.
+vigorous (a)
+1.
+villa (n)
+1.
+village (n)
+1.
+villager (n)
+1.
+violation (n)
+1.
+violent (a)
+1.
+virgin (n)
+1.
+virtue (n)
+1.
+virus (n)
+1.
+visible (a)
+1.
+vision (n)
+1.
+visit (n)
+1.
+visitor (n)
+1.
+visual (a)
+1.
+vitamin (n)
+1.
+vocational (a)
+1.
+voice (n)
+1.
+volcano (n)
+1.
+volume (n)
+1.
+voluntary (a)
+1.
+volunteer (n)
+1.
+vote (n)
+1.
+voter (n)
+1.
+voucher (n)
+1.
+voyage (n)
+1.
+vulnerable (a)
+1.
+wage (n)
+1.
+wagon (n)
+1.
+waist (n)
+1.
+wait (v)
+1.
+waiter (n)
+1.
+wake (n)
+1.
+walk (v)
+1.
+wall (n)
+1.
+wander (v)
+1.
+want (v)
+1.
+war (n)
+1.
+ward (n)
+1.
+wardrobe (n)
+1.
+warm (a)
+1.
+warn (v)
+1.
+warning (n)
+1.
+warrant (n)
+1.
+warrior (n)
+1.
+wash (v)
+1.
+waste (n)
+1.
+watch (n)
+1.
+water (n)
+1.
+waterfall (n)
+1.
+wave (n)
+1.
+way (n)
+1.
+weak (a)
+1.
+weakness (n)
+1.
+wealth (n)
+1.
+weapon (n)
+1.
+wear (v)
+1.
+wear out (v)
+1.
+weather (n)
+1.
+weave (v)
+1.
+wedding (n)
+1.
+weed (n)
+1.
+week (n)
+1.
+weekend (n)
+1.
+weekly (a)
+1.
+weigh (v)
+1.
+weight (n)
+1.
+welcome (a)
+1.
+welfare (n)
+1.
+well (a)
+1.
+west (n)
+1.
+wet (a)
+1.
+whale (n)
+1.
+wheat (n)
+1.
+wheel (n)
+1.
+whip (n)
+1.
+whiskey (n)
+1.
+whisper (v)
+1.
+white (a)
+1.
+whole (a)
+1.
+widen (v)
+1.
+widow (n)
+1.
+width (n)
+1.
+wife (n)
+1.
+wild (a)
+1.
+wilderness (n)
+1.
+wildlife (n)
+1.
+will (n)
+1.
+willpower (n)
+1.
+win (n)
+1.
+wind (n)
+1.
+window (n)
+1.
+wine (n)
+1.
+wing (n)
+1.
+winner (n)
+1.
+winter (n)
+1.
+wipe (v)
+1.
+wire (n)
+1.
+wise (a)
+1.
+wisecrack (n)
+1.
+witch (n)
+1.
+withdraw (v)
+1.
+withdrawal (n)
+1.
+witness (n)
+1.
+wolf (n)
+1.
+woman (n)
+1.
+wonder (n)
+1.
+wood (n)
+1.
+wool (n)
+1.
+word (n)
+1.
+wording (n)
+1.
+work (n)
+1.
+work out (v)
+1.
+worker (n)
+1.
+workshop (n)
+1.
+world (n)
+1.
+worm (n)
+1.
+worry (v)
+1.
+worth (n)
+1.
+wound (n)
+1.
+wrap (v)
+1.
+wreck (n)
+1.
+wrestle (v)
+1.
+wriggle (v)
+1.
+wrist (n)
+1.
+write (v)
+1.
+writer (n)
+1.
+written (a)
+1.
+wrong (a)
+1.
+yacht (n)
+1.
+yard (n)
+1.
+yawn (v)
+1.
+year (n)
+1.
+yearn (v)
+1.
+young (a)
+1.
+youth (n)
+1.
+zero (n)
+1.
+zone (n)
+1.

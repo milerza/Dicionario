@@ -1,6 +1,12 @@
 #include "HashFE.hpp"
 #include "QuickSort.hpp"
 
+extern "C"{
+    #include <msgassert.h>
+    #include <memlog.h>
+    #include <sys/time.h>
+    #include <sys/resource.h>
+}
 HashFE::HashFE(){
 }
 
@@ -24,6 +30,8 @@ void HashFE::inserir(TipoItem item){
     int pos, x;
     
     pos = Hash(item.palavra);
+    
+    leMemLog((long int)(Tabela), sizeof(long int), 1);
     x = Tabela[pos].PesquisaPosicao(item.palavra);
 
     if(x == -1)
@@ -52,7 +60,7 @@ void HashFE::imprimir(std::ofstream& outFile){
             Tabela[i].preencheLista(listaItens, &l);
         }
     }
-
+    leMemLog((long int)(listaItens), sizeof(long int), 2);
     quickSortRecursivo(listaItens, 0, t - 1);
 
     for(int i = 0; i < t; i++){
@@ -77,6 +85,7 @@ int HashFE::Hash(std::string palavra){
 void HashFE::removerPreenchidos(){
     for(int i =0; i<M; i++){
         if(!Tabela[i].vazia()){
+            leMemLog((long int)(&Tabela[i]), sizeof(long int), 3);
             Tabela[i].pecorreERemove();
         }
     }

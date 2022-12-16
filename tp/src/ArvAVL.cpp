@@ -2,6 +2,19 @@
 
 #include<iostream>
 
+extern "C"{
+    #include <msgassert.h>
+    #include <memlog.h>
+    #include <sys/time.h>
+    #include <sys/resource.h>
+}
+
+int altura(node *N) { 
+    if (N == nullptr) 
+        return 0; 
+    return N->altura; 
+} 
+
 ArvAVL::ArvAVL(){
     root = nullptr;
 }
@@ -11,7 +24,7 @@ ArvAVL::~ArvAVL(){
 }
 
 void ArvAVL::insere(Verbete it){
-    insereRecursivo(this->root, &it);
+    insereRecursivo(this->root, it);
 }
 
 void ArvAVL::imprime(std::ofstream& output){
@@ -23,8 +36,10 @@ void ArvAVL::procuraNaoVazio(node * p, Verbete * a, int * i){
 
     procuraNaoVazio(p->folhaEsquerda, a, i);
 
-    if(!p->item.vazio()){
-        a[*i] = p->item;
+    
+    if(!p->item->vazio()){
+        escreveMemLog((long int)(&a[*i]), sizeof(long int), 3);
+        a[*i] = *(p->item);
         (*i)++;
     }
 
@@ -37,7 +52,8 @@ void ArvAVL::removeSig(){
 
 void ArvAVL::pesquisa(node * p, int * i){
     if(p!= nullptr){
-        if(!p->item.vazio()) (*i)++;
+        leMemLog((long int)(p), sizeof(long int), 3);
+        if(!p->item->vazio()) (*i)++;
         pesquisa(p->folhaEsquerda, i);
         pesquisa(p->folhaDireita, i);
     } 
@@ -62,46 +78,62 @@ void ArvAVL::RemoveVetor(node * p){
     
 }
 
-void ArvAVL::insereRecursivo(node* &p, Verbete* it){
+node* ArvAVL::insereRecursivo(node* &p, Verbete it){
     if(p == nullptr){
+        escreveMemLog((long int)(p), sizeof(long int), 1);
         p = new node();
-        p->item = *it;
-        if(it->significado[0] != "")
-            p->item.tam++;
+        p->item->palavra = it.palavra;
+        p->item->significado = it.significado;
+        p->item->tipoPalavra = it.tipoPalavra;
+
+        if(it.significado[0] != "")
+            p->item->tam++;
     }
     else{
-        if(it->palavra < p->item.palavra)
-            insereRecursivo(p->folhaEsquerda, it);
-        else if(it->palavra > p->item.palavra){
-            insereRecursivo(p->folhaDireita, it);
+        if(it.palavra < p->item->palavra){
+            leMemLog((long int)(p), sizeof(long int), 1);
+            p->folhaEsquerda = insereRecursivo(p->folhaEsquerda, it);
+        }
+        else if(it.palavra > p->item->palavra){
+            leMemLog((long int)(p), sizeof(long int), 1);
+            p->folhaDireita = insereRecursivo(p->folhaDireita, it);
         } else{
-            p->insereVerbete(it);
+            escreveMemLog((long int)(p), sizeof(long int), 1);
+            try{
+                p->insereVerbete(&it);
+            } catch(const char* e){
+                leMemLog((long int)(p), sizeof(long int), 1);
+                insereRecursivo(p->folhaDireita, it);
+            }
         }
     }
-    p->altura = this->max(p->folhaEsquerda->alturaNo(), p->folhaDireita->alturaNo()) + 1; //mexer aquiii
-
+    leMemLog((long int)(p), sizeof(long int), 1);
+    p->altura = this->max(altura(p->folhaEsquerda), altura(p->folhaDireita)) + 1;
+    
+    leMemLog((long int)(p), sizeof(long int), 1);
     p = this->balancearArvore(p);
+    return p;
 }
 
 node *ArvAVL::balancearArvore(node *p){
     short fb = fatorBalanceamento(p);
 
     // Rotação direita
-    if(fb < minFB && fatorBalanceamento(p->folhaEsquerda) < 0)
-        p = rotacaoDireita(p);
+    if(fb < minFB && fatorBalanceamento(p->folhaDireita) <= 0)
+        p = rotacaoEsquerda(p);
 
     // Rotação esquerda
-      else if(fb > maxFB && fatorBalanceamento(p->folhaDireita) > 0)
-        p = rotacaoEsquerda(p);
+      else if(fb > maxFB && fatorBalanceamento(p->folhaEsquerda) >= 0)
+        p = rotacaoDireita(p);
 
     // Rotação dupla: corrige quebra à direta 
     // com rotação à esquerda e rotaciona pra direita
-    else if(fb > maxFB && fatorBalanceamento(p->folhaDireita) < 0)
+    else if(fb > maxFB && fatorBalanceamento(p->folhaEsquerda) < 0)
         p = rotacaoEsquerdaDireita(p);
 
     // Rotação dupla: corrige quebra à esquerda 
     // com rotação à direita e rotaciona pra esquerda
-    else if(fb < minFB && fatorBalanceamento(p->folhaEsquerda) > 0)
+    else if(fb < minFB && fatorBalanceamento(p->folhaDireita) > 0)
         p = rotacaoDireitaEsquerda(p);
 
     return p;
@@ -113,13 +145,15 @@ node * ArvAVL::removeRecursivo(node* &p, Verbete it){
         return p;
     
     } 
-    if(it.palavra < p->item.palavra)
-            p->folhaEsquerda = removeRecursivo(p->folhaEsquerda, it);
-            
-    else if(it.palavra > p->item.palavra)
+    if(it.palavra < p->item->palavra){
+        leMemLog((long int)(p), sizeof(long int), 3);
+        p->folhaEsquerda = removeRecursivo(p->folhaEsquerda, it);
+    }            
+    else if(it.palavra > p->item->palavra){
+        leMemLog((long int)(p), sizeof(long int), 0);
         p->folhaDireita = removeRecursivo(p->folhaDireita, it);
     // procura o nó a remover
-    
+    }
     else{
         if( (p->folhaDireita == nullptr) || (p->folhaEsquerda == nullptr) ) { 
             node *temp;
@@ -130,35 +164,36 @@ node * ArvAVL::removeRecursivo(node* &p, Verbete it){
             // No folha
             if (temp == nullptr) { 
                 std::cout <<"Removido no folha: \n"<< it.palavra <<std::endl;
-
+                escreveMemLog((long int)(p), sizeof(long int), 3);
                 temp = p; 
                 p = nullptr; 
             } 
             else{ //No com um filho 
+                escreveMemLog((long int)(p), sizeof(long int), 3);
                 *p = *temp;
                 std::cout <<"Removido no com um filho: \n"<< it.palavra <<std::endl;
-
-            }
-            
-                         
+            }                         
             delete temp; 
         } 
         else{
             // no com dois filhos
             // sucesspr menor da subarvore da direita
 
-            node *temp = p->folhaDireita;
+            node * temp = p->folhaDireita;
 
-            while(temp->folhaEsquerda != nullptr)
+            while(temp->folhaEsquerda != nullptr){
+                leMemLog((long int)(p), sizeof(long int), 3);
                 temp = temp->folhaEsquerda;
+            }
   
             // copia o conteudo do menor 
+            escreveMemLog((long int)(p), sizeof(long int), 3);
             p->item = temp->item; 
             std::cout <<"Troca no com um filho: \n"<< it.palavra <<std::endl;
 
-  
+            leMemLog((long int)(p), sizeof(long int), 3);
             // Deleta o menor na posicao folha
-            p->folhaDireita = removeRecursivo(p->folhaDireita, temp->item);
+            p->folhaDireita = removeRecursivo(p->folhaDireita, *(temp->item));
         }
     }
 
@@ -167,7 +202,7 @@ node * ArvAVL::removeRecursivo(node* &p, Verbete it){
         
 
     // recalcula a altura de todos os nós entre a raiz e o novo nó inserido
-    p->altura = max(p->folhaEsquerda->alturaNo(), p->folhaDireita->alturaNo()) + 1;
+    p->altura = max(altura(p->folhaEsquerda), altura(p->folhaDireita)) + 1;
 
     return p;
     
@@ -175,6 +210,7 @@ node * ArvAVL::removeRecursivo(node* &p, Verbete it){
 
 void ArvAVL::emOrdem(node *p, std::ofstream& outFile){
     if(p != nullptr){
+        leMemLog((long int)(p), sizeof(long int), 2);
         emOrdem(p->folhaEsquerda, outFile);
         p->imprimirNo(outFile);
         emOrdem(p->folhaDireita, outFile);
@@ -184,12 +220,15 @@ void ArvAVL::emOrdem(node *p, std::ofstream& outFile){
 int ArvAVL::fatorBalanceamento(node *p){
     if (p == nullptr) return 0;
 
-    return p->folhaDireita->alturaNo() - p->folhaEsquerda->alturaNo();
+    return   altura(p->folhaEsquerda) - altura(p->folhaDireita);
 }
 
 node * ArvAVL::rotacaoEsquerda(node *x){
     node *y, *t;
 
+    leMemLog((long int)(x), sizeof(long int), 1);
+    leMemLog((long int)(x), sizeof(long int), 2); 
+    leMemLog((long int)(x), sizeof(long int), 3);
     //guardando ponteiros
     y = x->folhaDireita; 
     t = y->folhaEsquerda; 
@@ -199,14 +238,17 @@ node * ArvAVL::rotacaoEsquerda(node *x){
     x->folhaDireita = t;
 
     // recalcula a altura dos nós que foram movimentados
-    x->altura = max(x->folhaEsquerda->alturaNo(), x->folhaDireita->alturaNo()) + 1;
-    y->altura = max(y->folhaEsquerda->alturaNo(), y->folhaDireita->alturaNo()) + 1;
+    x->altura = max(altura(x->folhaEsquerda), altura(x->folhaDireita)) + 1;
+    y->altura = max(altura(y->folhaEsquerda), altura(y->folhaDireita)) + 1;
 
     return y;
 }
 
 node * ArvAVL::rotacaoDireita(node *x){
     node *y, *t;
+    leMemLog((long int)(x), sizeof(long int), 1);
+    leMemLog((long int)(x), sizeof(long int), 2);
+    leMemLog((long int)(x), sizeof(long int), 3);
 
     //guardando ponteiros
     y = x->folhaEsquerda; 
@@ -217,8 +259,8 @@ node * ArvAVL::rotacaoDireita(node *x){
     x->folhaEsquerda = t; 
 
     // recalcula a altura dos nós que foram movimentados
-    x->altura = max(x->folhaEsquerda->alturaNo(), x->folhaDireita->alturaNo()) + 1;
-    y->altura = max(y->folhaEsquerda->alturaNo(), y->folhaDireita->alturaNo()) + 1;
+    x->altura = max(altura(x->folhaEsquerda), altura(x->folhaDireita)) + 1;
+    y->altura = max(altura(y->folhaEsquerda), altura(y->folhaDireita)) + 1;
 
     return y;
 }
@@ -229,7 +271,7 @@ node* ArvAVL::rotacaoEsquerdaDireita(node* x){
 }
 
 node* ArvAVL::rotacaoDireitaEsquerda(node* x){
-    x->folhaDireita = this->rotacaoDireita(x->folhaEsquerda);
+    x->folhaDireita = this->rotacaoDireita(x->folhaDireita);
     return rotacaoEsquerda(x);
 }
 
